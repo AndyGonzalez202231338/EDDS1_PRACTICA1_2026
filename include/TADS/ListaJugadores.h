@@ -15,6 +15,7 @@ public:
     void agregarJugador(Jugador* jugador);
     void eliminarJugador(const string& nombre);
     void eliminarTodos();
+    NodoJugador* obtenerNodoEnPosicion(int posicion);
     void mostrarJugadores() const;
     void mostrarManos() const;
     bool estaVacia() const;

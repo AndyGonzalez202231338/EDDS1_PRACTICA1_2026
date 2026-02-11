@@ -15,11 +15,20 @@
         NodoJugador* nuevo = new NodoJugador(jugador);
 
         if (actual == nullptr) {
+            // Primer jugador
             actual = nuevo;
             nuevo->siguiente = nuevo;
+            nuevo->anterior = nuevo;
         } else {
-            nuevo->siguiente = actual->siguiente;
-            actual->siguiente = nuevo;
+            NodoJugador* ultimo = actual->anterior;
+
+            // Conectar nuevo nodo
+            nuevo->siguiente = actual;
+            nuevo->anterior = ultimo;
+
+            // Ajustar extremos
+            ultimo->siguiente = nuevo;
+            actual->anterior = nuevo;
         }
 
         cantidad++;
@@ -54,38 +63,51 @@
         if (actual == nullptr) return;
 
         NodoJugador* temp = actual;
-        NodoJugador* prev = nullptr;
 
         do {
             if (temp->jugador->getNombre() == nombre) {
-                if (prev != nullptr) {
-                    prev->siguiente = temp->siguiente;
-                } else {
-                    // Si el jugador a eliminar es el actual
-                    if (temp->siguiente == actual) {
-                        actual = nullptr; // Solo hay un jugador
-                    } else {
-                        actual = temp->siguiente; // Mover el actual
+
+                // Caso: único jugador
+                if (cantidad == 1) {
+                    delete temp->jugador;
+                    delete temp;
+                    actual = nullptr;
+                } 
+                else {
+                    temp->anterior->siguiente = temp->siguiente;
+                    temp->siguiente->anterior = temp->anterior;
+
+                    if (temp == actual) {
+                        actual = temp->siguiente;
                     }
+
+                    delete temp->jugador;
+                    delete temp;
                 }
-                delete temp;
+
                 cantidad--;
                 return;
             }
-            prev = temp;
+
             temp = temp->siguiente;
+
         } while (temp != actual);
     }
 
     void ListaJugadores::eliminarTodos() {
         if (actual == nullptr) return;
 
-        NodoJugador* temp = actual;
-        do {
+        NodoJugador* temp = actual->siguiente;
+
+        while (temp != actual) {
             NodoJugador* siguiente = temp->siguiente;
+            delete temp->jugador;
             delete temp;
             temp = siguiente;
-        } while (temp != actual);
+        }
+
+        delete actual->jugador;
+        delete actual;
 
         actual = nullptr;
         cantidad = 0;
@@ -136,33 +158,21 @@
     }
 
     void ListaJugadores::mezclarTurnos() {
-        if (actual == nullptr) return;
+        if (cantidad < 2) return;
 
         srand(time(0));
-        int n = cantidad;
 
-        // Crear array de punteros a Jugador
-        Jugador** jugadoresArray = new Jugador*[n];
-        NodoJugador* temp = actual;
-        for (int i = 0; i < n; i++) {
-            jugadoresArray[i] = temp->jugador;
-            temp = temp->siguiente;
-        }
-
-        // Mezclar Fisher-Yates
-        for (int i = n - 1; i > 0; i--) {
+        for (int i = cantidad - 1; i > 0; i--) {
             int j = rand() % (i + 1);
-            swap(jugadoresArray[i], jugadoresArray[j]);  // Intercambiar punteros
-        }
 
-        // Reasignar punteros
-        temp = actual;
-        for (int i = 0; i < n; i++) {
-            temp->jugador = jugadoresArray[i];
-            temp = temp->siguiente;
-        }
+            NodoJugador* nodoI = obtenerNodoEnPosicion(i);
+            NodoJugador* nodoJ = obtenerNodoEnPosicion(j);
 
-        delete[] jugadoresArray;
+            // Intercambiar jugadores (no nodos)
+            Jugador* temp = nodoI->jugador;
+            nodoI->jugador = nodoJ->jugador;
+            nodoJ->jugador = temp;
+        }
     }
 
     Jugador& ListaJugadores::obtenerActual() {
@@ -175,11 +185,7 @@
         if (sentidoHorario) {
             actual = actual->siguiente;
         } else {
-            NodoJugador* temp = actual;
-            while (temp->siguiente != actual) {
-                temp = temp->siguiente;
-            }
-            actual = temp;
+            actual = actual->anterior;
         }
     }
 
@@ -189,5 +195,13 @@
 
     int ListaJugadores::size() const {
         return cantidad;
+    }
+
+    NodoJugador* ListaJugadores::obtenerNodoEnPosicion(int pos) {
+        NodoJugador* temp = actual;
+        for (int i = 0; i < pos; i++) {
+            temp = temp->siguiente;
+        }
+        return temp;
     }
 

@@ -7,6 +7,7 @@ class NodoJugador {
 public:
     Jugador* jugador;
     NodoJugador* siguiente;
+    NodoJugador* anterior;
     NodoJugador(Jugador* j);
 };
 
