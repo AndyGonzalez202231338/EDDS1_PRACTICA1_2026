@@ -159,7 +159,6 @@ void Menu::iniciar() {
             case 3:
 
                 juego.iniciarJuego();
-                mostrarTurnoActual();
                 break;
             case 0:
                 salir = true;
@@ -194,8 +193,4 @@ int Menu::obtenerEnteroValido(int min, int max) {
     }
 }
 
-void Menu::mostrarTurnoActual() {
-    cout << AMARILLO << "\nTURNO ACTUAL\n" << RESET;
-    cout << VERDE << juego.obtenerActual().getNombre() << RESET << endl;
-}
 

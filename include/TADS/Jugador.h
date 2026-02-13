@@ -29,6 +29,8 @@ public:
     void resetearUNO();
 
     string getNombre() const;
+    Mano& getMano();
+    const Mano& getMano() const;
 };
 
 #endif

@@ -11,7 +11,6 @@ private:
     void menuConfiguracion();
     void menuJugadores();
     void mostrarEstado(bool estado);
-    void mostrarTurnoActual();
 
 public:
     Menu();
