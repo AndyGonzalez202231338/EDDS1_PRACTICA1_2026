@@ -63,7 +63,7 @@ void JuegoUNO::iniciarJuego() {
     repartirCartasIniciales();
     mostrarManos();
     mostrarTurnos();
-
+    ejecutarTurno();
 
 }
 
@@ -77,7 +77,7 @@ void JuegoUNO::repartirCartasIniciales() {
 
     for (int i = 0; i < CARTAS_INICIALES; i++) {
         for (int j = 0; j < jugadores.size(); j++) {
-            Jugador& jugador = jugadores.obtenerActual();
+            Jugador& jugador = const_cast<Jugador&>(jugadores.obtenerActual());
             jugador.robarCarta(mazo);
             jugadores.siguienteTurno();
         }
@@ -92,6 +92,11 @@ void JuegoUNO::mostrarManos() const {
     cout << "============================================\n";
 
     jugadores.mostrarManos();
+}
+
+void JuegoUNO::mostrarMano() {
+    const Jugador& jugadorActual = jugadores.obtenerActual();
+    jugadorActual.getMano().mostrar();
 }
 
 void JuegoUNO::verificarGanador() {
@@ -118,9 +123,6 @@ void JuegoUNO::siguienteTurno() {
     jugadores.siguienteTurno();
 }
 
-Jugador& JuegoUNO::obtenerActual() {
-    return jugadores.obtenerActual();
-}
 
 void JuegoUNO::ejecutarTurno() {
     if (!juegoActivo) {
@@ -128,17 +130,9 @@ void JuegoUNO::ejecutarTurno() {
         return;
     }
     
-    Jugador& actual = obtenerActual();
+    Jugador& actual = jugadores.obtenerActual();
     cout << "\n=== TURNO DE " << actual.getNombre() << " ===\n";
-    
-    // Mostrar carta superior
-    // cout << "Carta superior: " << cartaSuperior.toString() << endl;
-    
-    // Mostrar mano del jugador
-    // actual.getMano()->mostrar();
-    
-    // Lógica del turno...
-    
-    // Pasar al siguiente turno
+    actual.mostrarMano();
+
     siguienteTurno();
 }

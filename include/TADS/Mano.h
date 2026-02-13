@@ -14,6 +14,7 @@ public:
     void agregarCarta(const Carta& carta);
     Carta eliminarCarta(int indice);
     Carta obtenerCarta(int indice) const;
+    void ordenar() const;
     void mostrar() const;
 
     bool tieneCartaJugable(const Carta& cartaSuperior) const;

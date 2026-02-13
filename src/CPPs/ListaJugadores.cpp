@@ -165,7 +165,7 @@
         delete[] jugadoresArray;
     }
 
-    Jugador& ListaJugadores::obtenerActual() {
+    Jugador& ListaJugadores::obtenerActual(){
         return *(actual->jugador);
     }
 

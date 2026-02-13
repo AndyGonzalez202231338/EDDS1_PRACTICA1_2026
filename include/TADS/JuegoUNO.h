@@ -33,8 +33,8 @@ public:
     void asignarTurnosAleatorios();
     void mostrarTurnos() const;
     void mostrarManos() const;
+    void mostrarMano();
 
-    Jugador& obtenerActual();
     void ejecutarTurno();
     void siguienteTurno();
 

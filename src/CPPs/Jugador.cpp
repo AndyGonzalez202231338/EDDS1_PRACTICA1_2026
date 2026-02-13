@@ -47,3 +47,11 @@ void Jugador::cantarUNO() {
 string Jugador::getNombre() const {
     return nombre;
 }
+
+Mano& Jugador::getMano() {
+    return mano;
+}
+
+const Mano& Jugador::getMano() const {
+    return mano;
+}

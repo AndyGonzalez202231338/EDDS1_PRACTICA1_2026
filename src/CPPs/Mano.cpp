@@ -80,7 +80,51 @@ int Mano::contarCartas() const {
     return cantidad;
 }
 
+bool debeIrAntes(const Carta& a, const Carta& b) {
+
+    // 1. Color
+    if (a.getColor() != b.getColor())
+        return a.getColor() < b.getColor();
+
+    // 2. Tipo (Número < Acción < Comodín)
+    if (a.getTipo() != b.getTipo())
+        return a.getTipo() < b.getTipo();
+
+    // 3. Valor
+    return a.getValor() < b.getValor();
+}
+
+void Mano::ordenar() const{
+
+    if (cabeza == nullptr || cabeza->siguiente == nullptr)
+        return;
+
+    bool cambio;
+
+    do {
+        cambio = false;
+        NodoCarta* actual = cabeza;
+
+        while (actual->siguiente != nullptr) {
+
+            if (!debeIrAntes(actual->dato, actual->siguiente->dato)) {
+
+                Carta temp = actual->dato;
+                actual->dato = actual->siguiente->dato;
+                actual->siguiente->dato = temp;
+
+                cambio = true;
+            }
+
+            actual = actual->siguiente;
+        }
+
+    } while (cambio);
+}
+
+
 void Mano::mostrar() const {
+    ordenar(); // Ordenar antes de mostrar
     NodoCarta* actual = cabeza;
     int indice = 0;
 
