@@ -20,7 +20,7 @@ public:
     bool estaVacia() const;
 
     void mezclarTurnos();
-    Jugador obtenerJugadorEnPosicion(int posicion);
+    Jugador obtenerJugadorEnPosicion(int posicion) const;
     void setJugadorEnPosicion(int posicion, Jugador* jugador);
 
     void mostrarOrdenTurnos() const;

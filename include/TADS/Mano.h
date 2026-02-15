@@ -17,6 +17,10 @@ public:
     void ordenar() const;
     void mostrar() const;
 
+    // metodos para la "vista" de cartas en paginas
+    void mostrarPagina(int pagina, int cartasPorPagina) const;
+    int getTotalPaginas(int cartasPorPagina) const;
+
     bool tieneCartaJugable(const Carta& cartaSuperior) const;
     int contarCartas() const;
     

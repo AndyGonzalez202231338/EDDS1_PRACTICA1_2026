@@ -6,6 +6,7 @@
 class CartaComodin : public Carta {
 private:
     int tipoComodin; // +4(13), CAMBIO COLOR(14)
+    int colorElegido;
 
 public:
     CartaComodin(int tipoComodin, bool esOscuro = false);
@@ -13,9 +14,12 @@ public:
 
     virtual int getTipo() const override;
     virtual int getValor() const override;
+    virtual int getColor() const override;
     virtual void mostrar() const override;
     virtual bool esJugable(const Carta& cartaSuperior) const override;
     virtual void ejecutarAccion(class JuegoUNO& juego) override;
+
+    void setColorElegido(int color);
 
 protected:
     virtual bool mismoTipoYValor(const Carta& otra) const override;

@@ -1,5 +1,6 @@
 #include "Mano.h"
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 Mano::Mano() : cabeza(nullptr), cantidad(0) {}
@@ -119,4 +120,38 @@ void Mano::mostrar() const {
         cout << "\n";
         actual = actual->siguiente;
     }
+}
+
+void Mano::mostrarPagina(int pagina, int cartasPorPagina) const {
+    if (cabeza == nullptr) {
+        cout << "  No hay cartas en la mano.\n";
+        return;
+    }
+    
+    ordenar();
+    
+    int inicio = pagina * cartasPorPagina;
+    int fin = min(inicio + cartasPorPagina, cantidad);
+    
+    // Convertir lista enlazada a arreglo temporal para acceso por índice
+    Carta** cartas = new Carta*[cantidad];
+    NodoCarta* actual = cabeza;
+    for (int i = 0; i < cantidad; i++) {
+        cartas[i] = actual->dato;
+        actual = actual->siguiente;
+    }
+    
+    for (int i = inicio; i < fin; i++) {
+        cout << "  [" << i << "] ";
+        cartas[i]->mostrar();
+        cout << "\n";
+    }
+    
+    delete[] cartas;
+    
+    cout << "\n  Página " << (pagina + 1) << " de " << getTotalPaginas(cartasPorPagina) << "\n";
+}
+
+int Mano::getTotalPaginas(int cartasPorPagina) const {
+    return ceil(static_cast<double>(cantidad) / cartasPorPagina);
 }

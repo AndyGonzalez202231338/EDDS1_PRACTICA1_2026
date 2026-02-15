@@ -1109,7 +1109,8 @@ CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o: ../src/CPPs/JuegoUNO.cpp \
   ../include/TADS/NodoJugador.h \
   ../include/TADS/Jugador.h \
   ../include/TADS/Mano.h \
-  ../include/TADS/Reglas.h
+  ../include/TADS/Reglas.h \
+  /usr/include/c++/11/limits
 
 CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o: ../src/CPPs/Jugador.cpp \
   /usr/include/stdc-predef.h \
@@ -1659,7 +1660,18 @@ CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o: ../src/CPPs/Mano.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h
 
 CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o: ../src/CPPs/Mazo.cpp \
   /usr/include/stdc-predef.h \
@@ -2593,21 +2605,35 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.o: ../src/CPPs/main.cpp \
   ../include/TADS/Reglas.h
 
 
+../src/CPPs/Mazo.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
 ../src/CPPs/NodoJugador.cpp:
 
-/usr/include/c++/11/limits:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-../src/CPPs/Mazo.cpp:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/math.h:
 
 ../src/CPPs/ListaJugadores.cpp:
 
 ../src/CPPs/Jugador.cpp:
+
+/usr/include/c++/11/limits:
 
 ../src/CPPs/CartaNumero.cpp:
 
 ../include/TADS/CartaFlip.h:
 
 ../src/CPPs/CartaFlip.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 ../include/TADS/CartaComodin.h:
 
@@ -2645,6 +2671,8 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.o: ../src/CPPs/main.cpp \
 
 /usr/include/c++/11/system_error:
 
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/bits/basic_string.tcc:
@@ -2652,6 +2680,8 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.o: ../src/CPPs/main.cpp \
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -2937,6 +2967,8 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.o: ../src/CPPs/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -2984,6 +3016,8 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.o: ../src/CPPs/main.cpp \
 ../include/TADS/CartaNumero.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/c++/11/cmath:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 

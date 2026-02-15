@@ -95,7 +95,7 @@
         return actual == nullptr;
     }
 
-    Jugador ListaJugadores::obtenerJugadorEnPosicion(int posicion) {
+    Jugador ListaJugadores::obtenerJugadorEnPosicion(int posicion) const{
         if (posicion < 0 || posicion >= cantidad) {
             throw out_of_range("Posición fuera de rango");
         }
