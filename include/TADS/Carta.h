@@ -1,41 +1,33 @@
 #ifndef CARTA_H
 #define CARTA_H
 
-#define TIPO_NUMERO 0
-#define TIPO_ACCION 1
-#define TIPO_COMODIN 2
+#include <iostream>
+using namespace std;
 
-#define SKIP 10
-#define REVERSE 11
-#define MAS2 12
-#define MAS4 13
-#define CAMBIO_COLOR 14
-
+// Clase base abstracta
 class Carta {
-private:
-    int colorClaro;
-    int tipoClaro;
-    int valorClaro;
-
-    int colorOscuro;
-    int tipoOscuro;
-    int valorOscuro;
-
+protected:
+    int color;
     bool ladoOscuro;
 
 public:
-    Carta();
+    Carta(int color);
+    virtual ~Carta();
+
+    virtual int getColor() const;
+    virtual int getTipo() const = 0;
+    virtual int getValor() const = 0;
+    virtual void mostrar() const = 0;
     
-    Carta(int colorClaro, int tipoClaro, int valorClaro, int colorOscuro, int tipoOscuro, int valorOscuro);
+    virtual bool esJugable(const Carta& cartaSuperior) const;
+    virtual void ejecutarAccion(class JuegoUNO& juego) = 0;
+    
+    virtual void voltear();
+    virtual bool esLadoOscuro() const;
 
-    int getColor() const;
-    int getTipo() const;
-    int getValor() const;
-    bool esLadoOscuro() const;
-
-    void voltear();
-
-    bool esJugable(const Carta& cartaSuperior) const;
+protected:
+    virtual bool mismoTipoYValor(const Carta& otra) const = 0;
+    virtual bool esComodin() const;
 };
 
 #endif

@@ -16,9 +16,10 @@ private:
 public:
     Jugador();
     Jugador(string nombre);
+    ~Jugador(); 
 
     void robarCarta(Mazo& mazo);
-    Carta jugarCarta(int indice);
+    Carta* jugarCarta(int indice);
 
     int cartasEnMano() const;
     void mostrarMano() const;

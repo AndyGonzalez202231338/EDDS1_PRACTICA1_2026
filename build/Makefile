@@ -156,6 +156,102 @@ src/CPPs/Carta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.s
 .PHONY : src/CPPs/Carta.cpp.s
 
+src/CPPs/CartaAccion.o: src/CPPs/CartaAccion.cpp.o
+.PHONY : src/CPPs/CartaAccion.o
+
+# target to build an object file
+src/CPPs/CartaAccion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o
+.PHONY : src/CPPs/CartaAccion.cpp.o
+
+src/CPPs/CartaAccion.i: src/CPPs/CartaAccion.cpp.i
+.PHONY : src/CPPs/CartaAccion.i
+
+# target to preprocess a source file
+src/CPPs/CartaAccion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.i
+.PHONY : src/CPPs/CartaAccion.cpp.i
+
+src/CPPs/CartaAccion.s: src/CPPs/CartaAccion.cpp.s
+.PHONY : src/CPPs/CartaAccion.s
+
+# target to generate assembly for a file
+src/CPPs/CartaAccion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.s
+.PHONY : src/CPPs/CartaAccion.cpp.s
+
+src/CPPs/CartaComodin.o: src/CPPs/CartaComodin.cpp.o
+.PHONY : src/CPPs/CartaComodin.o
+
+# target to build an object file
+src/CPPs/CartaComodin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o
+.PHONY : src/CPPs/CartaComodin.cpp.o
+
+src/CPPs/CartaComodin.i: src/CPPs/CartaComodin.cpp.i
+.PHONY : src/CPPs/CartaComodin.i
+
+# target to preprocess a source file
+src/CPPs/CartaComodin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.i
+.PHONY : src/CPPs/CartaComodin.cpp.i
+
+src/CPPs/CartaComodin.s: src/CPPs/CartaComodin.cpp.s
+.PHONY : src/CPPs/CartaComodin.s
+
+# target to generate assembly for a file
+src/CPPs/CartaComodin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.s
+.PHONY : src/CPPs/CartaComodin.cpp.s
+
+src/CPPs/CartaFlip.o: src/CPPs/CartaFlip.cpp.o
+.PHONY : src/CPPs/CartaFlip.o
+
+# target to build an object file
+src/CPPs/CartaFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o
+.PHONY : src/CPPs/CartaFlip.cpp.o
+
+src/CPPs/CartaFlip.i: src/CPPs/CartaFlip.cpp.i
+.PHONY : src/CPPs/CartaFlip.i
+
+# target to preprocess a source file
+src/CPPs/CartaFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.i
+.PHONY : src/CPPs/CartaFlip.cpp.i
+
+src/CPPs/CartaFlip.s: src/CPPs/CartaFlip.cpp.s
+.PHONY : src/CPPs/CartaFlip.s
+
+# target to generate assembly for a file
+src/CPPs/CartaFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.s
+.PHONY : src/CPPs/CartaFlip.cpp.s
+
+src/CPPs/CartaNumero.o: src/CPPs/CartaNumero.cpp.o
+.PHONY : src/CPPs/CartaNumero.o
+
+# target to build an object file
+src/CPPs/CartaNumero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o
+.PHONY : src/CPPs/CartaNumero.cpp.o
+
+src/CPPs/CartaNumero.i: src/CPPs/CartaNumero.cpp.i
+.PHONY : src/CPPs/CartaNumero.i
+
+# target to preprocess a source file
+src/CPPs/CartaNumero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.i
+.PHONY : src/CPPs/CartaNumero.cpp.i
+
+src/CPPs/CartaNumero.s: src/CPPs/CartaNumero.cpp.s
+.PHONY : src/CPPs/CartaNumero.s
+
+# target to generate assembly for a file
+src/CPPs/CartaNumero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.s
+.PHONY : src/CPPs/CartaNumero.cpp.s
+
 src/CPPs/JuegoUNO.o: src/CPPs/JuegoUNO.cpp.o
 .PHONY : src/CPPs/JuegoUNO.o
 
@@ -408,6 +504,18 @@ help:
 	@echo "... src/CPPs/Carta.o"
 	@echo "... src/CPPs/Carta.i"
 	@echo "... src/CPPs/Carta.s"
+	@echo "... src/CPPs/CartaAccion.o"
+	@echo "... src/CPPs/CartaAccion.i"
+	@echo "... src/CPPs/CartaAccion.s"
+	@echo "... src/CPPs/CartaComodin.o"
+	@echo "... src/CPPs/CartaComodin.i"
+	@echo "... src/CPPs/CartaComodin.s"
+	@echo "... src/CPPs/CartaFlip.o"
+	@echo "... src/CPPs/CartaFlip.i"
+	@echo "... src/CPPs/CartaFlip.s"
+	@echo "... src/CPPs/CartaNumero.o"
+	@echo "... src/CPPs/CartaNumero.i"
+	@echo "... src/CPPs/CartaNumero.s"
 	@echo "... src/CPPs/JuegoUNO.o"
 	@echo "... src/CPPs/JuegoUNO.i"
 	@echo "... src/CPPs/JuegoUNO.s"

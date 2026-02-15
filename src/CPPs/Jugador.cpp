@@ -1,21 +1,25 @@
 #include "Jugador.h"
 #include <iostream>
+using namespace std;
 
-Jugador::Jugador() {
-    nombre = "";
-    dijoUNO = false;
-}
+Jugador::Jugador() : nombre(""), dijoUNO(false) {}
 
-Jugador::Jugador(string nombre) {
-    this->nombre = nombre;
-    dijoUNO = false;
+Jugador::Jugador(string nombre) : nombre(nombre), dijoUNO(false) {}
+
+Jugador::~Jugador() {
+    // Mano se destruye automáticamente y libera sus cartas
 }
 
 void Jugador::robarCarta(Mazo& mazo) {
-    mano.agregarCarta(mazo.desapilar());
+    Carta* cartaRobada = mazo.desapilar();
+    if (cartaRobada != nullptr) {
+        mano.agregarCarta(cartaRobada);
+    } else {
+        cout << "No hay cartas en el mazo para robar.\n";
+    }
 }
 
-Carta Jugador::jugarCarta(int indice) {
+Carta* Jugador::jugarCarta(int indice) {
     return mano.eliminarCarta(indice);
 }
 
@@ -40,6 +44,7 @@ bool Jugador::haDichoUNO() const {
 void Jugador::resetearUNO() {
     dijoUNO = false;
 }
+
 void Jugador::cantarUNO() {
     dijoUNO = true;
 }

@@ -10,7 +10,7 @@ private:
     Mazo mazo;
     ListaJugadores jugadores;
     Reglas reglas;
-    Carta cartaSuperior;
+    Carta* cartaSuperior;
     bool juegoActivo;
 
 public:
@@ -35,9 +35,19 @@ public:
     void mostrarManos() const;
     void mostrarMano();
 
+    void sacarPrimeraCarta();
+
     void ejecutarTurno();
     void siguienteTurno();
 
+    bool procesarJugada(int indice);
+    void robarCarta();
+    bool juegoTerminado() const;
+
+    bool getSentido();
+    void invertirSentido();
+    int getNumJugadores() const;
+    void robarCartaJugadorActual(); // NUEVO
 };
 
 #endif
