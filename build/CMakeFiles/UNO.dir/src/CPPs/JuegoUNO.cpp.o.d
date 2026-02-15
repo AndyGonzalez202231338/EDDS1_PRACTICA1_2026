@@ -153,4 +153,5 @@ CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o: \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/../TADS/NodoJugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/../TADS/Jugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/../TADS/Mano.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/../TADS/Reglas.h
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/../TADS/Reglas.h \
+ /usr/include/c++/11/limits

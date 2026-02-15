@@ -37,6 +37,10 @@ bool Jugador::tieneUnaCarta() const {
     return mano.contarCartas() == 1;
 }
 
+bool Jugador::tieneDosCartas() const {
+    return mano.contarCartas() == 2;
+}
+
 bool Jugador::haDichoUNO() const {
     return dijoUNO;
 }

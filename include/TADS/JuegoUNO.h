@@ -13,6 +13,8 @@ private:
     Carta* cartaSuperior;
     bool juegoActivo;
 
+    static const int CARTAS_POR_PAGINA = 7;
+
 public:
     JuegoUNO();
     ~JuegoUNO();
@@ -42,12 +44,17 @@ public:
 
     bool procesarJugada(int indice);
     void robarCarta();
-    bool juegoTerminado() const;
+    bool juegoTerminado();
 
     bool getSentido();
     void invertirSentido();
     int getNumJugadores() const;
-    void robarCartaJugadorActual(); // NUEVO
+    void robarCartaJugadorActual();
+
+    void mostrarMenuTurno(Jugador& jugador);
+    bool procesarOpcionMenu(Jugador& jugador, char opcion, int& paginaActual);
+    void manejarCantoUNO(Jugador& jugador);
+    void manejarAcusarUNO(Jugador& jugador);
 };
 
 #endif

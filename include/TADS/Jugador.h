@@ -24,6 +24,7 @@ public:
     int cartasEnMano() const;
     void mostrarMano() const;
     bool tieneUnaCarta() const;
+    bool tieneDosCartas() const;
     bool haDichoUNO() const;
 
     void cantarUNO();

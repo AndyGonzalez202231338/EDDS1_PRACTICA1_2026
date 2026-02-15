@@ -1,6 +1,7 @@
 #include "Menu.h"
 #include <iostream>
 #include <limits>
+#include <cstdlib>
 
 using namespace std;
 
@@ -142,6 +143,7 @@ void Menu::menuJugadores() {
 
 
 void Menu::iniciar() {
+    system("clear");
     int opcion;
     bool salir = false;
 
@@ -152,13 +154,16 @@ void Menu::iniciar() {
         switch (opcion) {
             case 1:
                 menuConfiguracion();
+                system("clear");
                 break;
             case 2:
                 menuJugadores();
+                system("clear");
                 break;
             case 3:
 
                 juego.iniciarJuego();
+                system("clear");
                 break;
             case 0:
                 salir = true;
