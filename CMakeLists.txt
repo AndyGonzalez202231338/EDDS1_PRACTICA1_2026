@@ -21,6 +21,10 @@ include_directories(
 set(SOURCES
     src/CPPs/main.cpp
     src/CPPs/Carta.cpp
+    src/CPPs/CartaNumero.cpp     
+    src/CPPs/CartaAccion.cpp      
+    src/CPPs/CartaComodin.cpp
+    src/CPPs/CartaFlip.cpp    
     src/CPPs/JuegoUNO.cpp
     src/CPPs/Jugador.cpp
     src/CPPs/ListaJugadores.cpp

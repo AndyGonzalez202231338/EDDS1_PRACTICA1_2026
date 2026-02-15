@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Carta.cpp" "CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaAccion.cpp" "CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaComodin.cpp" "CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaFlip.cpp" "CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaNumero.cpp" "CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/JuegoUNO.cpp" "CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Jugador.cpp" "CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/ListaJugadores.cpp" "CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o.d"

@@ -29,6 +29,8 @@ public:
     void siguienteTurno();
     void invertirSentido();
     int size() const;
+
+    bool getSentido();
 };
 
 #endif

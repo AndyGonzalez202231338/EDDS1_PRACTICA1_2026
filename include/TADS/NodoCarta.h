@@ -5,10 +5,10 @@
 
 class NodoCarta {
 public:
-    Carta dato;
+    Carta* dato;
     NodoCarta* siguiente;
 
-    NodoCarta(const Carta& carta);
+    NodoCarta(Carta* carta);
 };
 
 #endif

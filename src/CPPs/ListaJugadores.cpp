@@ -191,3 +191,7 @@
         return cantidad;
     }
 
+    bool ListaJugadores::getSentido() {
+        return sentidoHorario;
+    }
+
