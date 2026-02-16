@@ -95,7 +95,7 @@
         return actual == nullptr;
     }
 
-    Jugador ListaJugadores::obtenerJugadorEnPosicion(int posicion) const{
+    Jugador ListaJugadores::obtenerJugadorEnPosicion(int posicion){
         if (posicion < 0 || posicion >= cantidad) {
             throw out_of_range("Posición fuera de rango");
         }
@@ -105,6 +105,18 @@
             temp = temp->siguiente;
         }
         return *(temp->jugador);
+    }
+
+    Jugador& ListaJugadores::obtenerJugadorEnPosicionModificable(int posicion) {
+        if (posicion < 0 || posicion >= cantidad) {
+            throw out_of_range("Posición fuera de rango");
+        }
+
+        NodoJugador* temp = actual;
+        for (int i = 0; i < posicion; i++) {
+            temp = temp->siguiente;
+        }
+        return *(temp->jugador); // Retorna referencia NO constante
     }
 
     void ListaJugadores::setJugadorEnPosicion(int posicion, Jugador* jugador) {
@@ -141,7 +153,6 @@
         srand(time(0));
         int n = cantidad;
 
-        // Crear array de punteros a Jugador
         Jugador** jugadoresArray = new Jugador*[n];
         NodoJugador* temp = actual;
         for (int i = 0; i < n; i++) {

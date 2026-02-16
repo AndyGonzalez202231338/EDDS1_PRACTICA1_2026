@@ -14,7 +14,7 @@ public:
     void agregarCarta(Carta* carta);  
     Carta* eliminarCarta(int indice); 
     Carta* obtenerCarta(int indice) const; 
-    void ordenar() const;
+    void ordenar();
     void mostrar() const;
 
     // metodos para la "vista" de cartas en paginas

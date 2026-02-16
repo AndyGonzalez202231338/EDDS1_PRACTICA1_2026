@@ -90,7 +90,7 @@ bool debeIrAntes(const Carta* a, const Carta* b) {
     return a->getValor() < b->getValor();
 }
 
-void Mano::ordenar() const {
+void Mano::ordenar() {
     if (cabeza == nullptr || cabeza->siguiente == nullptr)
         return;
 
@@ -111,7 +111,6 @@ void Mano::ordenar() const {
 }
 
 void Mano::mostrar() const {
-    ordenar();
     NodoCarta* actual = cabeza;
     int indice = 0;
     while (actual != nullptr) {
@@ -123,35 +122,55 @@ void Mano::mostrar() const {
 }
 
 void Mano::mostrarPagina(int pagina, int cartasPorPagina) const {
-    if (cabeza == nullptr) {
+    if (cabeza == nullptr || cantidad == 0) {
         cout << "  No hay cartas en la mano.\n";
         return;
     }
     
-    ordenar();
-    
     int inicio = pagina * cartasPorPagina;
-    int fin = min(inicio + cartasPorPagina, cantidad);
     
-    // Convertir lista enlazada a arreglo temporal para acceso por índice
-    Carta** cartas = new Carta*[cantidad];
+    // Validar página
+    if (inicio >= cantidad) {
+        cout << "  Página fuera de rango.\n";
+        return;
+    }
+    
+    // Calcular fin de página
+    int fin = inicio + cartasPorPagina;
+    if (fin > cantidad) {
+        fin = cantidad;
+    }
+    
+    // Recorrer la lista hasta llegar a la posición de inicio
     NodoCarta* actual = cabeza;
-    for (int i = 0; i < cantidad; i++) {
-        cartas[i] = actual->dato;
+    int posicion = 0;
+    
+    // Avanzar hasta la posición de inicio
+    while (actual != nullptr && posicion < inicio) {
         actual = actual->siguiente;
+        posicion++;
     }
     
-    for (int i = inicio; i < fin; i++) {
-        cout << "  [" << i << "] ";
-        cartas[i]->mostrar();
-        cout << "\n";
+    // Mostrar las cartas de la página actual
+    cout << "\n";
+    while (actual != nullptr && posicion < fin) {
+        cout << "  [" << posicion << "] ";
+        if (actual->dato != nullptr) {
+            actual->dato->mostrar();
+            cout << "\n";
+        }
+        actual = actual->siguiente;
+        posicion++;
     }
-    
-    delete[] cartas;
     
     cout << "\n  Página " << (pagina + 1) << " de " << getTotalPaginas(cartasPorPagina) << "\n";
 }
 
 int Mano::getTotalPaginas(int cartasPorPagina) const {
-    return ceil(static_cast<double>(cantidad) / cartasPorPagina);
+    if (cantidad == 0) return 1;
+    int total = cantidad / cartasPorPagina;
+    if (cantidad % cartasPorPagina != 0) {
+        total++;
+    }
+    return total;
 }

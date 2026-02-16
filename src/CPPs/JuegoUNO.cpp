@@ -51,7 +51,6 @@ void JuegoUNO::agregarJugador(const string& nombre) {
     cout << "Jugador " << nombre << " agregado exitosamente." << endl;
 }
 
-
 void JuegoUNO::eliminarJugador(const string& nombre) {
     jugadores.eliminarJugador(nombre);
 }
@@ -74,25 +73,24 @@ void JuegoUNO::configurarJuego() {
 
 void JuegoUNO::iniciarJuego() {
     if (jugadores.size() < 2) {
-        cout << "Error: Se necesitan al menos 2 jugadores para iniciar." << endl;
+        cout << BG_ROJO << "Error: "<<ROJO_BRILLANTE<<"Se necesitan al menos 2 jugadores para iniciar." << RESET << endl;
         return;
     }
     
     if (reglas.isModoFlipActivo()) {
         cout << "Iniciando juego en modo FLIP." << endl;
         mazo.inicializarFlip();
-        mazo.imprimirMazo(); 
+        //mazo.imprimirMazo(); 
     } else {
         cout << "Iniciando juego en modo CLASICO." << endl;
         mazo.inicializarClasico();
-        mazo.imprimirMazo();
+        //mazo.imprimirMazo();
     }
 
     juegoActivo = true;
     asignarTurnosAleatorios();
     mazo.barajar();
     repartirCartasIniciales();
-    //mostrarManos();
     mostrarTurnos();
     sacarPrimeraCarta();
     ejecutarTurno();      
@@ -113,8 +111,6 @@ void JuegoUNO::repartirCartasIniciales() {
             jugadores.siguienteTurno();
         }
     }
-
-    cout << "Cartas iniciales repartidas correctamente.\n";
 }
 
 void JuegoUNO::robarCartaJugadorActual() {
@@ -135,9 +131,6 @@ void JuegoUNO::mostrarMano() {
     jugadorActual.getMano().mostrar();
 }
 
-void JuegoUNO::verificarGanador() {
-    cout << "Verificando si hay ganador..." << endl;
-}
 
 Reglas& JuegoUNO::getReglas() {
     return reglas;
@@ -148,9 +141,9 @@ void JuegoUNO::asignarTurnosAleatorios() {
 }
 
 void JuegoUNO::mostrarTurnos() const {
-    cout << "*************************************************************\n";
-    cout << "El juego ha iniciado con " << jugadores.size() << " jugadores\n";
-    cout << "*************************************************************\n";
+    cout <<CYAN_BRILLANTE<< "*************************************************************\n"<<RESET;
+    cout <<BG_CYAN<< "El juego ha iniciado con " << jugadores.size() << " jugadores"<<RESET<<"\n";
+    cout <<CYAN_BRILLANTE<< "*************************************************************\n"<<RESET;
     jugadores.mostrarOrdenTurnos();
 }
 
@@ -160,10 +153,9 @@ void JuegoUNO::siguienteTurno() {
 
 void JuegoUNO::sacarPrimeraCarta() {
     if (mazo.estaVacio()) {
-        cout << "Error: el mazo está vacío." << endl;
+        cout << BG_ROJO << "Error:"<<ROJO_BRILLANTE<<" el mazo está vacío." << RESET << endl;
         return;
     }
-
     cartaSuperior = mazo.desapilar();
 }
 
@@ -204,8 +196,12 @@ void JuegoUNO::ejecutarTurno() {
             // Mostrar cartas de la página actual
             cout <<VERDE_BRILLANTE<< "\n--- Tus cartas (página " <<RESET<<(paginaActual + 1)<<VERDE_BRILLANTE 
                  << " de " <<RESET<< actual.getMano().getTotalPaginas(CARTAS_POR_PAGINA) << ") "<<VERDE_BRILLANTE<<"---\n"<<RESET;
-            actual.getMano().mostrarPagina(paginaActual, CARTAS_POR_PAGINA);
             
+            if (paginaActual == 0) {
+                const_cast<Jugador&>(actual).getMano().ordenar();
+            }
+            
+            actual.getMano().mostrarPagina(paginaActual, CARTAS_POR_PAGINA);
             cout <<CYAN_BRILLANTE <<"\nOpciones:\n";
             cout << "  [ÍNDICE] Jugar carta (ej: 0, 1, 2...)\n";
             cout << "  [N] Siguiente página\n";
@@ -215,10 +211,10 @@ void JuegoUNO::ejecutarTurno() {
             cout << "  [A] Acusar a alguien de no haber cantado UNO\n"<<RESET;
             
             if (!actual.getMano().tieneCartaJugable(*cartaSuperior)) {
-                cout <<BG_ROJO<< "!" <<"No tienes cartas jugables. Debes robar (R)."<<RESET<<"\n";
+                cout <<BG_ROJO<< "!" <<"No tienes cartas jugables. Debes robar ("<<BLANCO<<"R"<<BG_ROJO<<")."<<RESET<<"\n";
             }
             
-            cout <<BG_CYAN<< "Elige: "<<RESET;
+            cout <<BG_CYAN<< "Elige:"<<RESET" ";
             
             string opcion;
             cin >> opcion;
@@ -235,7 +231,7 @@ void JuegoUNO::ejecutarTurno() {
                 }
             } 
             catch (const invalid_argument&) {
-                // SEGUNDO: Si no es número, verificar comandos de letra
+                // SEGUNDO: Si no es número, verificar comandos de letra de las acciones
                 if (opcion.length() == 1) {
                     char c = toupper(opcion[0]);
                     
@@ -279,23 +275,23 @@ void JuegoUNO::ejecutarTurno() {
             catch (const out_of_range&) {
                 cout <<BG_ROJO<< "X" <<RESET<< " Número demasiado grande.\n";
             }
+
+            if(actual.cartasEnMano() == 0) {
+                cout << "\n ¡" << actual.getNombre() << " ha ganado la partida! \n";
+                limpiarJuego();
+                juegoActivo = false;
+                break;
+            }
+            
         }
-        
-        // Verificar si alguien ganó
-        if (juegoTerminado()) {
-            cout << "\n ¡" << jugadores.obtenerActual().getNombre() 
-                 << " ha ganado la partida! \n";
-            juegoActivo = false;
-            break;
-        }
-        
-        // Avanzar al siguiente turno
-        siguienteTurno();
-        
         cout <<VERDE_BRILLANTE <<"\nPresiona Enter para continuar..."<<RESET;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cin.get();
         system("clear");
+        
+        siguienteTurno();
+        
+
     }
 }
 
@@ -391,17 +387,14 @@ void JuegoUNO::robarCarta() {
     cartaRobada->mostrar();
     cout << "\n";
     
-    // Verificar si la carta robada es jugable
     if (cartaRobada->esJugable(*cartaSuperior)) {
         cout <<BG_VERDE<< "¡La carta robada es jugable! ¿Quieres jugarla? (s/n): " <<RESET;
         char respuesta;
         cin >> respuesta;
         
         if (toupper(respuesta) == 'S') {
-            // Buscar el índice de la carta recién robada
             for (int i = 0; i < actual.cartasEnMano(); i++) {
                 Carta* carta = actual.getMano().obtenerCarta(i);
-                // Comparación simple (necesitarías un método mejor)
                 if (carta == cartaRobada) {
                     procesarJugada(i);
                     break;
@@ -438,10 +431,10 @@ bool JuegoUNO::procesarJugada(int indice) {
         if (actual.tieneUnaCarta()) {
             cout << "!  " << actual.getNombre() << " tiene UNA carta. ";
             if (actual.haDichoUNO()) {
-                cout << "Dijo UNO correctamente.\n";
+                cout <<VERDE_BRILLANTE<< "Dijo UNO correctamente.\n";
                 actual.resetearUNO();
             } else {
-                cout << "¡NO DIJO UNO! Roba 2 cartas de penalización.\n";
+                cout <<AMAR_BRILLANTE<< "¡NO DIJO UNO! Roba 2 cartas de penalización.\n";
                 for (int i = 0; i < 2; i++) {
                     if (!mazo.estaVacio()) {
                         actual.robarCarta(mazo);
@@ -453,7 +446,6 @@ bool JuegoUNO::procesarJugada(int indice) {
         return true;
     } else {
         cout <<BG_ROJO<< "X" <<RESET<< " Carta no válida. Debe coincidir color o número.\n";
-        // Devolver la carta a la mano
         actual.getMano().agregarCarta(cartaJugada);
         return false;
     }
@@ -469,7 +461,7 @@ bool JuegoUNO:: getSentido(){
 
 void JuegoUNO::invertirSentido() {
     jugadores.invertirSentido();
-    cout << "Sentido invertido. Ahora es: " 
+    cout << BG_MAGENTA << "Sentido invertido. Ahora es: " << RESET
          << (jugadores.getSentido() ? "HORARIO" : "ANTIHORARIO") << endl;
 }
 
@@ -480,4 +472,30 @@ int JuegoUNO::getNumJugadores() const {
 void limpiarBuffer() {
     cin.clear(); // Limpiar flags de error
     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Ignorar todo hasta el siguiente ENTER
+}
+
+void JuegoUNO::limpiarJuego() {
+    
+    for (int i = 0; i < jugadores.size(); i++) {
+        Jugador& jugador = jugadores.obtenerJugadorEnPosicionModificable(i);
+        
+        while (jugador.cartasEnMano() > 0) {
+            Carta* carta = jugador.jugarCarta(0);
+            if (carta != nullptr) {
+                delete carta;
+            }
+        }
+        
+        jugador.resetearUNO();
+    }
+    
+    mazo.vaciar();
+    
+    if (cartaSuperior != nullptr) {
+        delete cartaSuperior;
+        cartaSuperior = nullptr;
+    }
+    
+    juegoActivo = false;
+    
 }

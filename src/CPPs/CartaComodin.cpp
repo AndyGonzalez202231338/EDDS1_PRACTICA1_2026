@@ -97,13 +97,13 @@ void CartaComodin::ejecutarAccion(class JuegoUNO& juego) {
         switch (tipoComodin) {
             case 13: // +4
                 cout << "+4 El siguiente jugador roba 4 cartas.\n";
-                // Elegir color
-                cout << "@ Elige un color:\n";
-                cout << "0: ROJO"<<endl;
-                cout << "1: AMARILLO"<<endl;
-                cout << "2: VERDE"<<endl;
-                cout << "3: AZUL"<<endl;
+                cout <<BG_MAGENTA<<BLANCO<< "@" <<BG_ROJO<< " ¡CAM"<<BG_AMARILLO<<"BIO D"<<BG_VERDE"E COL"<<BG_AZUL<<"OR! "<<RESET<<"   Elige nuevo color:\n";
+                cout <<ROJO<< "0: ROJO"<<RESET<<endl;
+                cout <<AMARILLO<< "1: AMARILLO"<<RESET<<endl;
+                cout <<VERDE<< "2: VERDE"<<RESET<<endl;
+                cout <<AZUL<< "3: AZUL"<<RESET<<endl;
                 int nuevoColor;
+                cout << "Opcion: ";
                 cin >> nuevoColor;
                 setColorElegido(nuevoColor);
                 
@@ -120,6 +120,7 @@ void CartaComodin::ejecutarAccion(class JuegoUNO& juego) {
                 cout <<VERDE<< "2: VERDE"<<RESET<<endl;
                 cout <<AZUL<< "3: AZUL"<<RESET<<endl;
                 int nuevoColor2;
+                cout << "Opcion: ";
                 cin >> nuevoColor2;
                 setColorElegido(nuevoColor2);
                 break;
