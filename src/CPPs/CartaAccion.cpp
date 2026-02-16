@@ -3,6 +3,16 @@
 #include <iostream>
 using namespace std;
 
+#define RESET   "\033[0m"
+
+#define BG_ROJO     "\033[41m"
+#define BG_VERDE    "\033[42m"
+#define BG_AMARILLO "\033[43m"
+#define BG_AZUL     "\033[44m"
+#define BG_MAGENTA  "\033[45m"
+#define BG_CYAN     "\033[46m"
+#define BG_BLANCO   "\033[47m"
+
 CartaAccion::CartaAccion(int color, int tipoAccion) 
     : Carta(color), tipoAccion(tipoAccion) {}
 
@@ -34,7 +44,7 @@ void CartaAccion::mostrar() const {
 void CartaAccion::ejecutarAccion(class JuegoUNO& juego) {
     switch (tipoAccion) {
         case 10: // SKIP
-            cout << "-> ¡SALTAR! El siguiente jugador pierde su turno.\n";
+            cout <<BG_MAGENTA <<"-> ¡SALTAR! El siguiente jugador pierde su turno."<<RESET<<"\n";
             juego.siguienteTurno(); // Salta un jugador
             break;
             
@@ -47,7 +57,7 @@ void CartaAccion::ejecutarAccion(class JuegoUNO& juego) {
             break;
             
         case 12: // +2
-            cout << "+2 El siguiente jugador roba 2 cartas.\n";
+            cout <<BG_MAGENTA<< "+2 El siguiente jugador roba 2 cartas."<<RESET<<"\n";
             juego.siguienteTurno();
             for (int i = 0; i < 2; i++) {
                 juego.robarCartaJugadorActual();

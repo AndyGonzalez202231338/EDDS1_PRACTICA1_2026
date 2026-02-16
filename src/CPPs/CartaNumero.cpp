@@ -2,6 +2,9 @@
 #include <iostream>
 using namespace std;
 
+#define RESET   "\033[0m"
+#define BG_MAGENTA  "\033[45m"
+
 CartaNumero::CartaNumero(int color, int numero) 
     : Carta(color), numero(numero) {}
 
@@ -27,7 +30,7 @@ void CartaNumero::mostrar() const {
 
 void CartaNumero::ejecutarAccion(class JuegoUNO& juego) {
     // Las cartas numéricas no tienen acción especial
-    cout << "Carta numérica sin efecto especial.\n";
+    cout << BG_MAGENTA << "Carta numérica sin efecto especial." << RESET << "\n";
 }
 
 bool CartaNumero::mismoTipoYValor(const Carta& otra) const {

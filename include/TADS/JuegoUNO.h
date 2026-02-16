@@ -14,47 +14,50 @@ private:
     bool juegoActivo;
 
     static const int CARTAS_POR_PAGINA = 7;
+    string leerOpcion();
 
 public:
     JuegoUNO();
     ~JuegoUNO();
 
+    //========== Funciones de gestión de jugadores ==========
     void agregarJugador(const string& nombre);
     void eliminarJugador(const string& nombre);
     void eliminarTodosJugadores();
     void mostrarJugadores() const;
     bool hayJugadores() const;
 
+    //========== Funciones de configuración y control del juego ==========
     void configurarJuego();
     void iniciarJuego();
     void repartirCartasIniciales();
-    void verificarGanador();
-
-    Reglas& getReglas();
-
     void asignarTurnosAleatorios();
-    void mostrarTurnos() const;
-    void mostrarManos() const;
-    void mostrarMano();
-
     void sacarPrimeraCarta();
 
-    void ejecutarTurno();
-    void siguienteTurno();
-
-    bool procesarJugada(int indice);
+    //========== Funciones de jugador ==========
+    void mostrarMano();
     void robarCarta();
-    bool juegoTerminado();
-
-    bool getSentido();
-    void invertirSentido();
-    int getNumJugadores() const;
-    void robarCartaJugadorActual();
-
-    void mostrarMenuTurno(Jugador& jugador);
-    bool procesarOpcionMenu(Jugador& jugador, char opcion, int& paginaActual);
     void manejarCantoUNO(Jugador& jugador);
     void manejarAcusarUNO(Jugador& jugador);
+    void robarCartaJugadorActual();
+    bool procesarOpcionMenu(Jugador& jugador, char opcion, int& paginaActual);
+
+    //========== Funciones de turno y estado del juego ==========
+    void mostrarTurnos() const;
+    void mostrarManos() const;
+    void ejecutarTurno();
+    void siguienteTurno();
+    bool procesarJugada(int indice);
+    bool juegoTerminado();
+    void invertirSentido();
+
+    //========== getters
+    Reglas& getReglas();
+    bool getSentido();
+    int getNumJugadores() const;
+    
+    void mostrarMenuTurno(Jugador& jugador);
+    void limpiarJuego();
 };
 
 #endif
