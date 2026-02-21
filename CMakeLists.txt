@@ -20,20 +20,29 @@ include_directories(
 # Listar explícitamente todos los archivos fuente
 set(SOURCES
     src/CPPs/main.cpp
-    src/CPPs/Carta.cpp
-    src/CPPs/CartaNumero.cpp     
-    src/CPPs/CartaAccion.cpp      
-    src/CPPs/CartaComodin.cpp
-    src/CPPs/CartaFlip.cpp    
-    src/CPPs/JuegoUNO.cpp
-    src/CPPs/Jugador.cpp
-    src/CPPs/ListaJugadores.cpp
-    src/CPPs/Mano.cpp
-    src/CPPs/Mazo.cpp
     src/CPPs/Menu.cpp
-    src/CPPs/NodoCarta.cpp
-    src/CPPs/NodoJugador.cpp
-    src/CPPs/Reglas.cpp
+
+    src/collections/ListaJugadores.cpp
+    src/collections/NodoCarta.cpp
+    src/collections/NodoJugador.cpp
+
+    src/game/CadenaRoboManager.cpp
+    src/game/RoboManager.cpp
+    src/game/JuegoUNO.cpp
+    src/game/TurnoManager.cpp
+
+    src/models/Carta.cpp
+    src/models/CartaNumero.cpp     
+    src/models/CartaAccion.cpp      
+    src/models/CartaComodin.cpp
+    src/models/CartaFlip.cpp    
+    src/models/Jugador.cpp
+    src/models/Mano.cpp
+    src/models/Mazo.cpp
+    src/models/Reglas.cpp
+
+    src/utils/InputUtils.cpp
+    src/utils/Colores.cpp
 )
 
 # Crear el ejecutable

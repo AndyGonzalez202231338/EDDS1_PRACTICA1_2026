@@ -16,6 +16,7 @@ public:
     virtual void mostrar() const override;
     virtual void ejecutarAccion(class JuegoUNO& juego) override;
 
+    bool esCartaRobo() const { return tipoAccion == 12; }//+2
 protected:
     virtual bool mismoTipoYValor(const Carta& otra) const override;
 };

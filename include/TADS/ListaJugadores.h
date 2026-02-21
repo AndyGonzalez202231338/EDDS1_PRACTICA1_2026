@@ -32,6 +32,15 @@ public:
     int size() const;
 
     bool getSentido();
+
+
+    NodoJugador* getPrimerNodo() const;
+    NodoJugador* getSiguienteNodo(NodoJugador* nodo) const;
+    string getNombreJugador(NodoJugador* nodo) const;
+    Jugador* getJugadorPtr(NodoJugador* nodo) const;
+    bool tieneUnaCarta(NodoJugador* nodo) const;
+    bool haDichoUNO(NodoJugador* nodo) const;
+    void robarCartaJugador(NodoJugador* nodo, Carta* carta);
 };
 
 #endif

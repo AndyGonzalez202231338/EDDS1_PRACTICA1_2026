@@ -20,7 +20,8 @@ public:
     virtual void ejecutarAccion(class JuegoUNO& juego) override;
 
     void setColorElegido(int color);
-
+    bool esMas4() const { return tipoComodin == 13; }
+    bool tieneColorElegido() const { return colorElegido != -1; }
 protected:
     virtual bool mismoTipoYValor(const Carta& otra) const override;
     virtual bool esComodin() const override;
