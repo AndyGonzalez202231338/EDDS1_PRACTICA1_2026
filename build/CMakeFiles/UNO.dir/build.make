@@ -86,150 +86,10 @@ CMakeFiles/UNO.dir/src/CPPs/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/main.cpp" -o CMakeFiles/UNO.dir/src/CPPs/main.cpp.s
 
-CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o: ../src/CPPs/Carta.cpp
-CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Carta.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Carta.cpp" > CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Carta.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o: ../src/CPPs/CartaNumero.cpp
-CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaNumero.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaNumero.cpp" > CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaNumero.cpp" -o CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o: ../src/CPPs/CartaAccion.cpp
-CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaAccion.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaAccion.cpp" > CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaAccion.cpp" -o CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o: ../src/CPPs/CartaComodin.cpp
-CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaComodin.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaComodin.cpp" > CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaComodin.cpp" -o CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o: ../src/CPPs/CartaFlip.cpp
-CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaFlip.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaFlip.cpp" > CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/CartaFlip.cpp" -o CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o: ../src/CPPs/JuegoUNO.cpp
-CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/JuegoUNO.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/JuegoUNO.cpp" > CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/JuegoUNO.cpp" -o CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o: ../src/CPPs/Jugador.cpp
-CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Jugador.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Jugador.cpp" > CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Jugador.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o: ../src/CPPs/ListaJugadores.cpp
-CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/ListaJugadores.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/ListaJugadores.cpp" > CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/ListaJugadores.cpp" -o CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o: ../src/CPPs/Mano.cpp
-CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mano.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mano.cpp" > CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mano.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.s
-
-CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o: ../src/CPPs/Mazo.cpp
-CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mazo.cpp"
-
-CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mazo.cpp" > CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.i
-
-CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Mazo.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.s
-
 CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o: ../src/CPPs/Menu.cpp
 CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Menu.cpp"
 
 CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.i: cmake_force
@@ -240,87 +100,307 @@ CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Menu.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.s
 
-CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o: ../src/CPPs/NodoCarta.cpp
-CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoCarta.cpp"
+CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o: ../src/collections/ListaJugadores.cpp
+CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o -MF CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o.d -o CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/ListaJugadores.cpp"
 
-CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoCarta.cpp" > CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.i
+CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/ListaJugadores.cpp" > CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.i
 
-CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoCarta.cpp" -o CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.s
+CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/ListaJugadores.cpp" -o CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.s
 
-CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o: ../src/CPPs/NodoJugador.cpp
-CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoJugador.cpp"
+CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o: ../src/collections/NodoCarta.cpp
+CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o -MF CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o.d -o CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoCarta.cpp"
 
-CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoJugador.cpp" > CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.i
+CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoCarta.cpp" > CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.i
 
-CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/NodoJugador.cpp" -o CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.s
+CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoCarta.cpp" -o CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.s
 
-CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o: ../src/CPPs/Reglas.cpp
-CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o -MF CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o.d -o CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Reglas.cpp"
+CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o: ../src/collections/NodoJugador.cpp
+CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o -MF CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o.d -o CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoJugador.cpp"
 
-CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Reglas.cpp" > CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.i
+CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoJugador.cpp" > CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.i
 
-CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/CPPs/Reglas.cpp" -o CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.s
+CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/collections/NodoJugador.cpp" -o CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.s
+
+CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o: ../src/game/CadenaRoboManager.cpp
+CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o -MF CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o.d -o CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/CadenaRoboManager.cpp"
+
+CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/CadenaRoboManager.cpp" > CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.i
+
+CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/CadenaRoboManager.cpp" -o CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.s
+
+CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o: ../src/game/RoboManager.cpp
+CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o -MF CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o.d -o CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/RoboManager.cpp"
+
+CMakeFiles/UNO.dir/src/game/RoboManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/game/RoboManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/RoboManager.cpp" > CMakeFiles/UNO.dir/src/game/RoboManager.cpp.i
+
+CMakeFiles/UNO.dir/src/game/RoboManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/game/RoboManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/RoboManager.cpp" -o CMakeFiles/UNO.dir/src/game/RoboManager.cpp.s
+
+CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o: ../src/game/JuegoUNO.cpp
+CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o -MF CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o.d -o CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/JuegoUNO.cpp"
+
+CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/JuegoUNO.cpp" > CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.i
+
+CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/JuegoUNO.cpp" -o CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.s
+
+CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o: ../src/game/TurnoManager.cpp
+CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o -MF CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o.d -o CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/TurnoManager.cpp"
+
+CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/TurnoManager.cpp" > CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.i
+
+CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/game/TurnoManager.cpp" -o CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.s
+
+CMakeFiles/UNO.dir/src/models/Carta.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/Carta.cpp.o: ../src/models/Carta.cpp
+CMakeFiles/UNO.dir/src/models/Carta.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UNO.dir/src/models/Carta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/Carta.cpp.o -MF CMakeFiles/UNO.dir/src/models/Carta.cpp.o.d -o CMakeFiles/UNO.dir/src/models/Carta.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Carta.cpp"
+
+CMakeFiles/UNO.dir/src/models/Carta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/Carta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Carta.cpp" > CMakeFiles/UNO.dir/src/models/Carta.cpp.i
+
+CMakeFiles/UNO.dir/src/models/Carta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/Carta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Carta.cpp" -o CMakeFiles/UNO.dir/src/models/Carta.cpp.s
+
+CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o: ../src/models/CartaNumero.cpp
+CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o -MF CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o.d -o CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaNumero.cpp"
+
+CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaNumero.cpp" > CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.i
+
+CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaNumero.cpp" -o CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.s
+
+CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o: ../src/models/CartaAccion.cpp
+CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o -MF CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o.d -o CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaAccion.cpp"
+
+CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaAccion.cpp" > CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.i
+
+CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaAccion.cpp" -o CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.s
+
+CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o: ../src/models/CartaComodin.cpp
+CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o -MF CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o.d -o CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaComodin.cpp"
+
+CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaComodin.cpp" > CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.i
+
+CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaComodin.cpp" -o CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.s
+
+CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o: ../src/models/CartaFlip.cpp
+CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o -MF CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o.d -o CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlip.cpp"
+
+CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlip.cpp" > CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.i
+
+CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlip.cpp" -o CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.s
+
+CMakeFiles/UNO.dir/src/models/Jugador.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/Jugador.cpp.o: ../src/models/Jugador.cpp
+CMakeFiles/UNO.dir/src/models/Jugador.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UNO.dir/src/models/Jugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/Jugador.cpp.o -MF CMakeFiles/UNO.dir/src/models/Jugador.cpp.o.d -o CMakeFiles/UNO.dir/src/models/Jugador.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Jugador.cpp"
+
+CMakeFiles/UNO.dir/src/models/Jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/Jugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Jugador.cpp" > CMakeFiles/UNO.dir/src/models/Jugador.cpp.i
+
+CMakeFiles/UNO.dir/src/models/Jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/Jugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Jugador.cpp" -o CMakeFiles/UNO.dir/src/models/Jugador.cpp.s
+
+CMakeFiles/UNO.dir/src/models/Mano.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/Mano.cpp.o: ../src/models/Mano.cpp
+CMakeFiles/UNO.dir/src/models/Mano.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/UNO.dir/src/models/Mano.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/Mano.cpp.o -MF CMakeFiles/UNO.dir/src/models/Mano.cpp.o.d -o CMakeFiles/UNO.dir/src/models/Mano.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mano.cpp"
+
+CMakeFiles/UNO.dir/src/models/Mano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/Mano.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mano.cpp" > CMakeFiles/UNO.dir/src/models/Mano.cpp.i
+
+CMakeFiles/UNO.dir/src/models/Mano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/Mano.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mano.cpp" -o CMakeFiles/UNO.dir/src/models/Mano.cpp.s
+
+CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: ../src/models/Mazo.cpp
+CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/UNO.dir/src/models/Mazo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/Mazo.cpp.o -MF CMakeFiles/UNO.dir/src/models/Mazo.cpp.o.d -o CMakeFiles/UNO.dir/src/models/Mazo.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mazo.cpp"
+
+CMakeFiles/UNO.dir/src/models/Mazo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/Mazo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mazo.cpp" > CMakeFiles/UNO.dir/src/models/Mazo.cpp.i
+
+CMakeFiles/UNO.dir/src/models/Mazo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/Mazo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mazo.cpp" -o CMakeFiles/UNO.dir/src/models/Mazo.cpp.s
+
+CMakeFiles/UNO.dir/src/models/Reglas.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/models/Reglas.cpp.o: ../src/models/Reglas.cpp
+CMakeFiles/UNO.dir/src/models/Reglas.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/UNO.dir/src/models/Reglas.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/models/Reglas.cpp.o -MF CMakeFiles/UNO.dir/src/models/Reglas.cpp.o.d -o CMakeFiles/UNO.dir/src/models/Reglas.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Reglas.cpp"
+
+CMakeFiles/UNO.dir/src/models/Reglas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/models/Reglas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Reglas.cpp" > CMakeFiles/UNO.dir/src/models/Reglas.cpp.i
+
+CMakeFiles/UNO.dir/src/models/Reglas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/models/Reglas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Reglas.cpp" -o CMakeFiles/UNO.dir/src/models/Reglas.cpp.s
+
+CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o: ../src/utils/InputUtils.cpp
+CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o -MF CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o.d -o CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/InputUtils.cpp"
+
+CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/InputUtils.cpp" > CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.i
+
+CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/InputUtils.cpp" -o CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.s
+
+CMakeFiles/UNO.dir/src/utils/Colores.cpp.o: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/utils/Colores.cpp.o: ../src/utils/Colores.cpp
+CMakeFiles/UNO.dir/src/utils/Colores.cpp.o: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/UNO.dir/src/utils/Colores.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/utils/Colores.cpp.o -MF CMakeFiles/UNO.dir/src/utils/Colores.cpp.o.d -o CMakeFiles/UNO.dir/src/utils/Colores.cpp.o -c "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/Colores.cpp"
+
+CMakeFiles/UNO.dir/src/utils/Colores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/utils/Colores.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/Colores.cpp" > CMakeFiles/UNO.dir/src/utils/Colores.cpp.i
+
+CMakeFiles/UNO.dir/src/utils/Colores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/utils/Colores.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/Colores.cpp" -o CMakeFiles/UNO.dir/src/utils/Colores.cpp.s
 
 # Object files for target UNO
 UNO_OBJECTS = \
 "CMakeFiles/UNO.dir/src/CPPs/main.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o" \
 "CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o" \
-"CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o"
+"CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o" \
+"CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o" \
+"CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o" \
+"CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o" \
+"CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o" \
+"CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o" \
+"CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/Carta.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/Jugador.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/Mano.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/Mazo.cpp.o" \
+"CMakeFiles/UNO.dir/src/models/Reglas.cpp.o" \
+"CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o" \
+"CMakeFiles/UNO.dir/src/utils/Colores.cpp.o"
 
 # External object files for target UNO
 UNO_EXTERNAL_OBJECTS =
 
 UNO: CMakeFiles/UNO.dir/src/CPPs/main.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o
 UNO: CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o
-UNO: CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o
+UNO: CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o
+UNO: CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o
+UNO: CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o
+UNO: CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o
+UNO: CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o
+UNO: CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o
+UNO: CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/Carta.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/Jugador.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/Mano.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/Mazo.cpp.o
+UNO: CMakeFiles/UNO.dir/src/models/Reglas.cpp.o
+UNO: CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o
+UNO: CMakeFiles/UNO.dir/src/utils/Colores.cpp.o
 UNO: CMakeFiles/UNO.dir/build.make
 UNO: CMakeFiles/UNO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable UNO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable UNO"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UNO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

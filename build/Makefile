@@ -132,246 +132,6 @@ UNO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/build
 .PHONY : UNO/fast
 
-src/CPPs/Carta.o: src/CPPs/Carta.cpp.o
-.PHONY : src/CPPs/Carta.o
-
-# target to build an object file
-src/CPPs/Carta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.o
-.PHONY : src/CPPs/Carta.cpp.o
-
-src/CPPs/Carta.i: src/CPPs/Carta.cpp.i
-.PHONY : src/CPPs/Carta.i
-
-# target to preprocess a source file
-src/CPPs/Carta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.i
-.PHONY : src/CPPs/Carta.cpp.i
-
-src/CPPs/Carta.s: src/CPPs/Carta.cpp.s
-.PHONY : src/CPPs/Carta.s
-
-# target to generate assembly for a file
-src/CPPs/Carta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Carta.cpp.s
-.PHONY : src/CPPs/Carta.cpp.s
-
-src/CPPs/CartaAccion.o: src/CPPs/CartaAccion.cpp.o
-.PHONY : src/CPPs/CartaAccion.o
-
-# target to build an object file
-src/CPPs/CartaAccion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.o
-.PHONY : src/CPPs/CartaAccion.cpp.o
-
-src/CPPs/CartaAccion.i: src/CPPs/CartaAccion.cpp.i
-.PHONY : src/CPPs/CartaAccion.i
-
-# target to preprocess a source file
-src/CPPs/CartaAccion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.i
-.PHONY : src/CPPs/CartaAccion.cpp.i
-
-src/CPPs/CartaAccion.s: src/CPPs/CartaAccion.cpp.s
-.PHONY : src/CPPs/CartaAccion.s
-
-# target to generate assembly for a file
-src/CPPs/CartaAccion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaAccion.cpp.s
-.PHONY : src/CPPs/CartaAccion.cpp.s
-
-src/CPPs/CartaComodin.o: src/CPPs/CartaComodin.cpp.o
-.PHONY : src/CPPs/CartaComodin.o
-
-# target to build an object file
-src/CPPs/CartaComodin.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.o
-.PHONY : src/CPPs/CartaComodin.cpp.o
-
-src/CPPs/CartaComodin.i: src/CPPs/CartaComodin.cpp.i
-.PHONY : src/CPPs/CartaComodin.i
-
-# target to preprocess a source file
-src/CPPs/CartaComodin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.i
-.PHONY : src/CPPs/CartaComodin.cpp.i
-
-src/CPPs/CartaComodin.s: src/CPPs/CartaComodin.cpp.s
-.PHONY : src/CPPs/CartaComodin.s
-
-# target to generate assembly for a file
-src/CPPs/CartaComodin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaComodin.cpp.s
-.PHONY : src/CPPs/CartaComodin.cpp.s
-
-src/CPPs/CartaFlip.o: src/CPPs/CartaFlip.cpp.o
-.PHONY : src/CPPs/CartaFlip.o
-
-# target to build an object file
-src/CPPs/CartaFlip.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.o
-.PHONY : src/CPPs/CartaFlip.cpp.o
-
-src/CPPs/CartaFlip.i: src/CPPs/CartaFlip.cpp.i
-.PHONY : src/CPPs/CartaFlip.i
-
-# target to preprocess a source file
-src/CPPs/CartaFlip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.i
-.PHONY : src/CPPs/CartaFlip.cpp.i
-
-src/CPPs/CartaFlip.s: src/CPPs/CartaFlip.cpp.s
-.PHONY : src/CPPs/CartaFlip.s
-
-# target to generate assembly for a file
-src/CPPs/CartaFlip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaFlip.cpp.s
-.PHONY : src/CPPs/CartaFlip.cpp.s
-
-src/CPPs/CartaNumero.o: src/CPPs/CartaNumero.cpp.o
-.PHONY : src/CPPs/CartaNumero.o
-
-# target to build an object file
-src/CPPs/CartaNumero.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.o
-.PHONY : src/CPPs/CartaNumero.cpp.o
-
-src/CPPs/CartaNumero.i: src/CPPs/CartaNumero.cpp.i
-.PHONY : src/CPPs/CartaNumero.i
-
-# target to preprocess a source file
-src/CPPs/CartaNumero.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.i
-.PHONY : src/CPPs/CartaNumero.cpp.i
-
-src/CPPs/CartaNumero.s: src/CPPs/CartaNumero.cpp.s
-.PHONY : src/CPPs/CartaNumero.s
-
-# target to generate assembly for a file
-src/CPPs/CartaNumero.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/CartaNumero.cpp.s
-.PHONY : src/CPPs/CartaNumero.cpp.s
-
-src/CPPs/JuegoUNO.o: src/CPPs/JuegoUNO.cpp.o
-.PHONY : src/CPPs/JuegoUNO.o
-
-# target to build an object file
-src/CPPs/JuegoUNO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.o
-.PHONY : src/CPPs/JuegoUNO.cpp.o
-
-src/CPPs/JuegoUNO.i: src/CPPs/JuegoUNO.cpp.i
-.PHONY : src/CPPs/JuegoUNO.i
-
-# target to preprocess a source file
-src/CPPs/JuegoUNO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.i
-.PHONY : src/CPPs/JuegoUNO.cpp.i
-
-src/CPPs/JuegoUNO.s: src/CPPs/JuegoUNO.cpp.s
-.PHONY : src/CPPs/JuegoUNO.s
-
-# target to generate assembly for a file
-src/CPPs/JuegoUNO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/JuegoUNO.cpp.s
-.PHONY : src/CPPs/JuegoUNO.cpp.s
-
-src/CPPs/Jugador.o: src/CPPs/Jugador.cpp.o
-.PHONY : src/CPPs/Jugador.o
-
-# target to build an object file
-src/CPPs/Jugador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.o
-.PHONY : src/CPPs/Jugador.cpp.o
-
-src/CPPs/Jugador.i: src/CPPs/Jugador.cpp.i
-.PHONY : src/CPPs/Jugador.i
-
-# target to preprocess a source file
-src/CPPs/Jugador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.i
-.PHONY : src/CPPs/Jugador.cpp.i
-
-src/CPPs/Jugador.s: src/CPPs/Jugador.cpp.s
-.PHONY : src/CPPs/Jugador.s
-
-# target to generate assembly for a file
-src/CPPs/Jugador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Jugador.cpp.s
-.PHONY : src/CPPs/Jugador.cpp.s
-
-src/CPPs/ListaJugadores.o: src/CPPs/ListaJugadores.cpp.o
-.PHONY : src/CPPs/ListaJugadores.o
-
-# target to build an object file
-src/CPPs/ListaJugadores.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.o
-.PHONY : src/CPPs/ListaJugadores.cpp.o
-
-src/CPPs/ListaJugadores.i: src/CPPs/ListaJugadores.cpp.i
-.PHONY : src/CPPs/ListaJugadores.i
-
-# target to preprocess a source file
-src/CPPs/ListaJugadores.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.i
-.PHONY : src/CPPs/ListaJugadores.cpp.i
-
-src/CPPs/ListaJugadores.s: src/CPPs/ListaJugadores.cpp.s
-.PHONY : src/CPPs/ListaJugadores.s
-
-# target to generate assembly for a file
-src/CPPs/ListaJugadores.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/ListaJugadores.cpp.s
-.PHONY : src/CPPs/ListaJugadores.cpp.s
-
-src/CPPs/Mano.o: src/CPPs/Mano.cpp.o
-.PHONY : src/CPPs/Mano.o
-
-# target to build an object file
-src/CPPs/Mano.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.o
-.PHONY : src/CPPs/Mano.cpp.o
-
-src/CPPs/Mano.i: src/CPPs/Mano.cpp.i
-.PHONY : src/CPPs/Mano.i
-
-# target to preprocess a source file
-src/CPPs/Mano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.i
-.PHONY : src/CPPs/Mano.cpp.i
-
-src/CPPs/Mano.s: src/CPPs/Mano.cpp.s
-.PHONY : src/CPPs/Mano.s
-
-# target to generate assembly for a file
-src/CPPs/Mano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mano.cpp.s
-.PHONY : src/CPPs/Mano.cpp.s
-
-src/CPPs/Mazo.o: src/CPPs/Mazo.cpp.o
-.PHONY : src/CPPs/Mazo.o
-
-# target to build an object file
-src/CPPs/Mazo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.o
-.PHONY : src/CPPs/Mazo.cpp.o
-
-src/CPPs/Mazo.i: src/CPPs/Mazo.cpp.i
-.PHONY : src/CPPs/Mazo.i
-
-# target to preprocess a source file
-src/CPPs/Mazo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.i
-.PHONY : src/CPPs/Mazo.cpp.i
-
-src/CPPs/Mazo.s: src/CPPs/Mazo.cpp.s
-.PHONY : src/CPPs/Mazo.s
-
-# target to generate assembly for a file
-src/CPPs/Mazo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Mazo.cpp.s
-.PHONY : src/CPPs/Mazo.cpp.s
-
 src/CPPs/Menu.o: src/CPPs/Menu.cpp.o
 .PHONY : src/CPPs/Menu.o
 
@@ -395,78 +155,6 @@ src/CPPs/Menu.s: src/CPPs/Menu.cpp.s
 src/CPPs/Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Menu.cpp.s
 .PHONY : src/CPPs/Menu.cpp.s
-
-src/CPPs/NodoCarta.o: src/CPPs/NodoCarta.cpp.o
-.PHONY : src/CPPs/NodoCarta.o
-
-# target to build an object file
-src/CPPs/NodoCarta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.o
-.PHONY : src/CPPs/NodoCarta.cpp.o
-
-src/CPPs/NodoCarta.i: src/CPPs/NodoCarta.cpp.i
-.PHONY : src/CPPs/NodoCarta.i
-
-# target to preprocess a source file
-src/CPPs/NodoCarta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.i
-.PHONY : src/CPPs/NodoCarta.cpp.i
-
-src/CPPs/NodoCarta.s: src/CPPs/NodoCarta.cpp.s
-.PHONY : src/CPPs/NodoCarta.s
-
-# target to generate assembly for a file
-src/CPPs/NodoCarta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoCarta.cpp.s
-.PHONY : src/CPPs/NodoCarta.cpp.s
-
-src/CPPs/NodoJugador.o: src/CPPs/NodoJugador.cpp.o
-.PHONY : src/CPPs/NodoJugador.o
-
-# target to build an object file
-src/CPPs/NodoJugador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.o
-.PHONY : src/CPPs/NodoJugador.cpp.o
-
-src/CPPs/NodoJugador.i: src/CPPs/NodoJugador.cpp.i
-.PHONY : src/CPPs/NodoJugador.i
-
-# target to preprocess a source file
-src/CPPs/NodoJugador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.i
-.PHONY : src/CPPs/NodoJugador.cpp.i
-
-src/CPPs/NodoJugador.s: src/CPPs/NodoJugador.cpp.s
-.PHONY : src/CPPs/NodoJugador.s
-
-# target to generate assembly for a file
-src/CPPs/NodoJugador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/NodoJugador.cpp.s
-.PHONY : src/CPPs/NodoJugador.cpp.s
-
-src/CPPs/Reglas.o: src/CPPs/Reglas.cpp.o
-.PHONY : src/CPPs/Reglas.o
-
-# target to build an object file
-src/CPPs/Reglas.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.o
-.PHONY : src/CPPs/Reglas.cpp.o
-
-src/CPPs/Reglas.i: src/CPPs/Reglas.cpp.i
-.PHONY : src/CPPs/Reglas.i
-
-# target to preprocess a source file
-src/CPPs/Reglas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.i
-.PHONY : src/CPPs/Reglas.cpp.i
-
-src/CPPs/Reglas.s: src/CPPs/Reglas.cpp.s
-.PHONY : src/CPPs/Reglas.s
-
-# target to generate assembly for a file
-src/CPPs/Reglas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/Reglas.cpp.s
-.PHONY : src/CPPs/Reglas.cpp.s
 
 src/CPPs/main.o: src/CPPs/main.cpp.o
 .PHONY : src/CPPs/main.o
@@ -492,6 +180,438 @@ src/CPPs/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/CPPs/main.cpp.s
 .PHONY : src/CPPs/main.cpp.s
 
+src/collections/ListaJugadores.o: src/collections/ListaJugadores.cpp.o
+.PHONY : src/collections/ListaJugadores.o
+
+# target to build an object file
+src/collections/ListaJugadores.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o
+.PHONY : src/collections/ListaJugadores.cpp.o
+
+src/collections/ListaJugadores.i: src/collections/ListaJugadores.cpp.i
+.PHONY : src/collections/ListaJugadores.i
+
+# target to preprocess a source file
+src/collections/ListaJugadores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.i
+.PHONY : src/collections/ListaJugadores.cpp.i
+
+src/collections/ListaJugadores.s: src/collections/ListaJugadores.cpp.s
+.PHONY : src/collections/ListaJugadores.s
+
+# target to generate assembly for a file
+src/collections/ListaJugadores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.s
+.PHONY : src/collections/ListaJugadores.cpp.s
+
+src/collections/NodoCarta.o: src/collections/NodoCarta.cpp.o
+.PHONY : src/collections/NodoCarta.o
+
+# target to build an object file
+src/collections/NodoCarta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.o
+.PHONY : src/collections/NodoCarta.cpp.o
+
+src/collections/NodoCarta.i: src/collections/NodoCarta.cpp.i
+.PHONY : src/collections/NodoCarta.i
+
+# target to preprocess a source file
+src/collections/NodoCarta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.i
+.PHONY : src/collections/NodoCarta.cpp.i
+
+src/collections/NodoCarta.s: src/collections/NodoCarta.cpp.s
+.PHONY : src/collections/NodoCarta.s
+
+# target to generate assembly for a file
+src/collections/NodoCarta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoCarta.cpp.s
+.PHONY : src/collections/NodoCarta.cpp.s
+
+src/collections/NodoJugador.o: src/collections/NodoJugador.cpp.o
+.PHONY : src/collections/NodoJugador.o
+
+# target to build an object file
+src/collections/NodoJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.o
+.PHONY : src/collections/NodoJugador.cpp.o
+
+src/collections/NodoJugador.i: src/collections/NodoJugador.cpp.i
+.PHONY : src/collections/NodoJugador.i
+
+# target to preprocess a source file
+src/collections/NodoJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.i
+.PHONY : src/collections/NodoJugador.cpp.i
+
+src/collections/NodoJugador.s: src/collections/NodoJugador.cpp.s
+.PHONY : src/collections/NodoJugador.s
+
+# target to generate assembly for a file
+src/collections/NodoJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/collections/NodoJugador.cpp.s
+.PHONY : src/collections/NodoJugador.cpp.s
+
+src/game/CadenaRoboManager.o: src/game/CadenaRoboManager.cpp.o
+.PHONY : src/game/CadenaRoboManager.o
+
+# target to build an object file
+src/game/CadenaRoboManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.o
+.PHONY : src/game/CadenaRoboManager.cpp.o
+
+src/game/CadenaRoboManager.i: src/game/CadenaRoboManager.cpp.i
+.PHONY : src/game/CadenaRoboManager.i
+
+# target to preprocess a source file
+src/game/CadenaRoboManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.i
+.PHONY : src/game/CadenaRoboManager.cpp.i
+
+src/game/CadenaRoboManager.s: src/game/CadenaRoboManager.cpp.s
+.PHONY : src/game/CadenaRoboManager.s
+
+# target to generate assembly for a file
+src/game/CadenaRoboManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/CadenaRoboManager.cpp.s
+.PHONY : src/game/CadenaRoboManager.cpp.s
+
+src/game/JuegoUNO.o: src/game/JuegoUNO.cpp.o
+.PHONY : src/game/JuegoUNO.o
+
+# target to build an object file
+src/game/JuegoUNO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.o
+.PHONY : src/game/JuegoUNO.cpp.o
+
+src/game/JuegoUNO.i: src/game/JuegoUNO.cpp.i
+.PHONY : src/game/JuegoUNO.i
+
+# target to preprocess a source file
+src/game/JuegoUNO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.i
+.PHONY : src/game/JuegoUNO.cpp.i
+
+src/game/JuegoUNO.s: src/game/JuegoUNO.cpp.s
+.PHONY : src/game/JuegoUNO.s
+
+# target to generate assembly for a file
+src/game/JuegoUNO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/JuegoUNO.cpp.s
+.PHONY : src/game/JuegoUNO.cpp.s
+
+src/game/RoboManager.o: src/game/RoboManager.cpp.o
+.PHONY : src/game/RoboManager.o
+
+# target to build an object file
+src/game/RoboManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/RoboManager.cpp.o
+.PHONY : src/game/RoboManager.cpp.o
+
+src/game/RoboManager.i: src/game/RoboManager.cpp.i
+.PHONY : src/game/RoboManager.i
+
+# target to preprocess a source file
+src/game/RoboManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/RoboManager.cpp.i
+.PHONY : src/game/RoboManager.cpp.i
+
+src/game/RoboManager.s: src/game/RoboManager.cpp.s
+.PHONY : src/game/RoboManager.s
+
+# target to generate assembly for a file
+src/game/RoboManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/RoboManager.cpp.s
+.PHONY : src/game/RoboManager.cpp.s
+
+src/game/TurnoManager.o: src/game/TurnoManager.cpp.o
+.PHONY : src/game/TurnoManager.o
+
+# target to build an object file
+src/game/TurnoManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o
+.PHONY : src/game/TurnoManager.cpp.o
+
+src/game/TurnoManager.i: src/game/TurnoManager.cpp.i
+.PHONY : src/game/TurnoManager.i
+
+# target to preprocess a source file
+src/game/TurnoManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.i
+.PHONY : src/game/TurnoManager.cpp.i
+
+src/game/TurnoManager.s: src/game/TurnoManager.cpp.s
+.PHONY : src/game/TurnoManager.s
+
+# target to generate assembly for a file
+src/game/TurnoManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.s
+.PHONY : src/game/TurnoManager.cpp.s
+
+src/models/Carta.o: src/models/Carta.cpp.o
+.PHONY : src/models/Carta.o
+
+# target to build an object file
+src/models/Carta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Carta.cpp.o
+.PHONY : src/models/Carta.cpp.o
+
+src/models/Carta.i: src/models/Carta.cpp.i
+.PHONY : src/models/Carta.i
+
+# target to preprocess a source file
+src/models/Carta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Carta.cpp.i
+.PHONY : src/models/Carta.cpp.i
+
+src/models/Carta.s: src/models/Carta.cpp.s
+.PHONY : src/models/Carta.s
+
+# target to generate assembly for a file
+src/models/Carta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Carta.cpp.s
+.PHONY : src/models/Carta.cpp.s
+
+src/models/CartaAccion.o: src/models/CartaAccion.cpp.o
+.PHONY : src/models/CartaAccion.o
+
+# target to build an object file
+src/models/CartaAccion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o
+.PHONY : src/models/CartaAccion.cpp.o
+
+src/models/CartaAccion.i: src/models/CartaAccion.cpp.i
+.PHONY : src/models/CartaAccion.i
+
+# target to preprocess a source file
+src/models/CartaAccion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.i
+.PHONY : src/models/CartaAccion.cpp.i
+
+src/models/CartaAccion.s: src/models/CartaAccion.cpp.s
+.PHONY : src/models/CartaAccion.s
+
+# target to generate assembly for a file
+src/models/CartaAccion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.s
+.PHONY : src/models/CartaAccion.cpp.s
+
+src/models/CartaComodin.o: src/models/CartaComodin.cpp.o
+.PHONY : src/models/CartaComodin.o
+
+# target to build an object file
+src/models/CartaComodin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o
+.PHONY : src/models/CartaComodin.cpp.o
+
+src/models/CartaComodin.i: src/models/CartaComodin.cpp.i
+.PHONY : src/models/CartaComodin.i
+
+# target to preprocess a source file
+src/models/CartaComodin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.i
+.PHONY : src/models/CartaComodin.cpp.i
+
+src/models/CartaComodin.s: src/models/CartaComodin.cpp.s
+.PHONY : src/models/CartaComodin.s
+
+# target to generate assembly for a file
+src/models/CartaComodin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.s
+.PHONY : src/models/CartaComodin.cpp.s
+
+src/models/CartaFlip.o: src/models/CartaFlip.cpp.o
+.PHONY : src/models/CartaFlip.o
+
+# target to build an object file
+src/models/CartaFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o
+.PHONY : src/models/CartaFlip.cpp.o
+
+src/models/CartaFlip.i: src/models/CartaFlip.cpp.i
+.PHONY : src/models/CartaFlip.i
+
+# target to preprocess a source file
+src/models/CartaFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.i
+.PHONY : src/models/CartaFlip.cpp.i
+
+src/models/CartaFlip.s: src/models/CartaFlip.cpp.s
+.PHONY : src/models/CartaFlip.s
+
+# target to generate assembly for a file
+src/models/CartaFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.s
+.PHONY : src/models/CartaFlip.cpp.s
+
+src/models/CartaNumero.o: src/models/CartaNumero.cpp.o
+.PHONY : src/models/CartaNumero.o
+
+# target to build an object file
+src/models/CartaNumero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o
+.PHONY : src/models/CartaNumero.cpp.o
+
+src/models/CartaNumero.i: src/models/CartaNumero.cpp.i
+.PHONY : src/models/CartaNumero.i
+
+# target to preprocess a source file
+src/models/CartaNumero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.i
+.PHONY : src/models/CartaNumero.cpp.i
+
+src/models/CartaNumero.s: src/models/CartaNumero.cpp.s
+.PHONY : src/models/CartaNumero.s
+
+# target to generate assembly for a file
+src/models/CartaNumero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.s
+.PHONY : src/models/CartaNumero.cpp.s
+
+src/models/Jugador.o: src/models/Jugador.cpp.o
+.PHONY : src/models/Jugador.o
+
+# target to build an object file
+src/models/Jugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Jugador.cpp.o
+.PHONY : src/models/Jugador.cpp.o
+
+src/models/Jugador.i: src/models/Jugador.cpp.i
+.PHONY : src/models/Jugador.i
+
+# target to preprocess a source file
+src/models/Jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Jugador.cpp.i
+.PHONY : src/models/Jugador.cpp.i
+
+src/models/Jugador.s: src/models/Jugador.cpp.s
+.PHONY : src/models/Jugador.s
+
+# target to generate assembly for a file
+src/models/Jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Jugador.cpp.s
+.PHONY : src/models/Jugador.cpp.s
+
+src/models/Mano.o: src/models/Mano.cpp.o
+.PHONY : src/models/Mano.o
+
+# target to build an object file
+src/models/Mano.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mano.cpp.o
+.PHONY : src/models/Mano.cpp.o
+
+src/models/Mano.i: src/models/Mano.cpp.i
+.PHONY : src/models/Mano.i
+
+# target to preprocess a source file
+src/models/Mano.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mano.cpp.i
+.PHONY : src/models/Mano.cpp.i
+
+src/models/Mano.s: src/models/Mano.cpp.s
+.PHONY : src/models/Mano.s
+
+# target to generate assembly for a file
+src/models/Mano.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mano.cpp.s
+.PHONY : src/models/Mano.cpp.s
+
+src/models/Mazo.o: src/models/Mazo.cpp.o
+.PHONY : src/models/Mazo.o
+
+# target to build an object file
+src/models/Mazo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mazo.cpp.o
+.PHONY : src/models/Mazo.cpp.o
+
+src/models/Mazo.i: src/models/Mazo.cpp.i
+.PHONY : src/models/Mazo.i
+
+# target to preprocess a source file
+src/models/Mazo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mazo.cpp.i
+.PHONY : src/models/Mazo.cpp.i
+
+src/models/Mazo.s: src/models/Mazo.cpp.s
+.PHONY : src/models/Mazo.s
+
+# target to generate assembly for a file
+src/models/Mazo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Mazo.cpp.s
+.PHONY : src/models/Mazo.cpp.s
+
+src/models/Reglas.o: src/models/Reglas.cpp.o
+.PHONY : src/models/Reglas.o
+
+# target to build an object file
+src/models/Reglas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Reglas.cpp.o
+.PHONY : src/models/Reglas.cpp.o
+
+src/models/Reglas.i: src/models/Reglas.cpp.i
+.PHONY : src/models/Reglas.i
+
+# target to preprocess a source file
+src/models/Reglas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Reglas.cpp.i
+.PHONY : src/models/Reglas.cpp.i
+
+src/models/Reglas.s: src/models/Reglas.cpp.s
+.PHONY : src/models/Reglas.s
+
+# target to generate assembly for a file
+src/models/Reglas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Reglas.cpp.s
+.PHONY : src/models/Reglas.cpp.s
+
+src/utils/Colores.o: src/utils/Colores.cpp.o
+.PHONY : src/utils/Colores.o
+
+# target to build an object file
+src/utils/Colores.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/Colores.cpp.o
+.PHONY : src/utils/Colores.cpp.o
+
+src/utils/Colores.i: src/utils/Colores.cpp.i
+.PHONY : src/utils/Colores.i
+
+# target to preprocess a source file
+src/utils/Colores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/Colores.cpp.i
+.PHONY : src/utils/Colores.cpp.i
+
+src/utils/Colores.s: src/utils/Colores.cpp.s
+.PHONY : src/utils/Colores.s
+
+# target to generate assembly for a file
+src/utils/Colores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/Colores.cpp.s
+.PHONY : src/utils/Colores.cpp.s
+
+src/utils/InputUtils.o: src/utils/InputUtils.cpp.o
+.PHONY : src/utils/InputUtils.o
+
+# target to build an object file
+src/utils/InputUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o
+.PHONY : src/utils/InputUtils.cpp.o
+
+src/utils/InputUtils.i: src/utils/InputUtils.cpp.i
+.PHONY : src/utils/InputUtils.i
+
+# target to preprocess a source file
+src/utils/InputUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.i
+.PHONY : src/utils/InputUtils.cpp.i
+
+src/utils/InputUtils.s: src/utils/InputUtils.cpp.s
+.PHONY : src/utils/InputUtils.s
+
+# target to generate assembly for a file
+src/utils/InputUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.s
+.PHONY : src/utils/InputUtils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -501,51 +621,66 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... UNO"
-	@echo "... src/CPPs/Carta.o"
-	@echo "... src/CPPs/Carta.i"
-	@echo "... src/CPPs/Carta.s"
-	@echo "... src/CPPs/CartaAccion.o"
-	@echo "... src/CPPs/CartaAccion.i"
-	@echo "... src/CPPs/CartaAccion.s"
-	@echo "... src/CPPs/CartaComodin.o"
-	@echo "... src/CPPs/CartaComodin.i"
-	@echo "... src/CPPs/CartaComodin.s"
-	@echo "... src/CPPs/CartaFlip.o"
-	@echo "... src/CPPs/CartaFlip.i"
-	@echo "... src/CPPs/CartaFlip.s"
-	@echo "... src/CPPs/CartaNumero.o"
-	@echo "... src/CPPs/CartaNumero.i"
-	@echo "... src/CPPs/CartaNumero.s"
-	@echo "... src/CPPs/JuegoUNO.o"
-	@echo "... src/CPPs/JuegoUNO.i"
-	@echo "... src/CPPs/JuegoUNO.s"
-	@echo "... src/CPPs/Jugador.o"
-	@echo "... src/CPPs/Jugador.i"
-	@echo "... src/CPPs/Jugador.s"
-	@echo "... src/CPPs/ListaJugadores.o"
-	@echo "... src/CPPs/ListaJugadores.i"
-	@echo "... src/CPPs/ListaJugadores.s"
-	@echo "... src/CPPs/Mano.o"
-	@echo "... src/CPPs/Mano.i"
-	@echo "... src/CPPs/Mano.s"
-	@echo "... src/CPPs/Mazo.o"
-	@echo "... src/CPPs/Mazo.i"
-	@echo "... src/CPPs/Mazo.s"
 	@echo "... src/CPPs/Menu.o"
 	@echo "... src/CPPs/Menu.i"
 	@echo "... src/CPPs/Menu.s"
-	@echo "... src/CPPs/NodoCarta.o"
-	@echo "... src/CPPs/NodoCarta.i"
-	@echo "... src/CPPs/NodoCarta.s"
-	@echo "... src/CPPs/NodoJugador.o"
-	@echo "... src/CPPs/NodoJugador.i"
-	@echo "... src/CPPs/NodoJugador.s"
-	@echo "... src/CPPs/Reglas.o"
-	@echo "... src/CPPs/Reglas.i"
-	@echo "... src/CPPs/Reglas.s"
 	@echo "... src/CPPs/main.o"
 	@echo "... src/CPPs/main.i"
 	@echo "... src/CPPs/main.s"
+	@echo "... src/collections/ListaJugadores.o"
+	@echo "... src/collections/ListaJugadores.i"
+	@echo "... src/collections/ListaJugadores.s"
+	@echo "... src/collections/NodoCarta.o"
+	@echo "... src/collections/NodoCarta.i"
+	@echo "... src/collections/NodoCarta.s"
+	@echo "... src/collections/NodoJugador.o"
+	@echo "... src/collections/NodoJugador.i"
+	@echo "... src/collections/NodoJugador.s"
+	@echo "... src/game/CadenaRoboManager.o"
+	@echo "... src/game/CadenaRoboManager.i"
+	@echo "... src/game/CadenaRoboManager.s"
+	@echo "... src/game/JuegoUNO.o"
+	@echo "... src/game/JuegoUNO.i"
+	@echo "... src/game/JuegoUNO.s"
+	@echo "... src/game/RoboManager.o"
+	@echo "... src/game/RoboManager.i"
+	@echo "... src/game/RoboManager.s"
+	@echo "... src/game/TurnoManager.o"
+	@echo "... src/game/TurnoManager.i"
+	@echo "... src/game/TurnoManager.s"
+	@echo "... src/models/Carta.o"
+	@echo "... src/models/Carta.i"
+	@echo "... src/models/Carta.s"
+	@echo "... src/models/CartaAccion.o"
+	@echo "... src/models/CartaAccion.i"
+	@echo "... src/models/CartaAccion.s"
+	@echo "... src/models/CartaComodin.o"
+	@echo "... src/models/CartaComodin.i"
+	@echo "... src/models/CartaComodin.s"
+	@echo "... src/models/CartaFlip.o"
+	@echo "... src/models/CartaFlip.i"
+	@echo "... src/models/CartaFlip.s"
+	@echo "... src/models/CartaNumero.o"
+	@echo "... src/models/CartaNumero.i"
+	@echo "... src/models/CartaNumero.s"
+	@echo "... src/models/Jugador.o"
+	@echo "... src/models/Jugador.i"
+	@echo "... src/models/Jugador.s"
+	@echo "... src/models/Mano.o"
+	@echo "... src/models/Mano.i"
+	@echo "... src/models/Mano.s"
+	@echo "... src/models/Mazo.o"
+	@echo "... src/models/Mazo.i"
+	@echo "... src/models/Mazo.s"
+	@echo "... src/models/Reglas.o"
+	@echo "... src/models/Reglas.i"
+	@echo "... src/models/Reglas.s"
+	@echo "... src/utils/Colores.o"
+	@echo "... src/utils/Colores.i"
+	@echo "... src/utils/Colores.s"
+	@echo "... src/utils/InputUtils.o"
+	@echo "... src/utils/InputUtils.i"
+	@echo "... src/utils/InputUtils.s"
 .PHONY : help
 
 
