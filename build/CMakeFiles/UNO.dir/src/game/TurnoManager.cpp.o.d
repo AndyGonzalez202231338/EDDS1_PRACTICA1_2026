@@ -157,4 +157,6 @@ CMakeFiles/UNO.dir/src/game/TurnoManager.cpp.o: \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/game/../utils/Colores.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/game/../utils/InputUtils.h
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/game/../utils/InputUtils.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/VistaCarta.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/CPPs/../utils/Colores.h
