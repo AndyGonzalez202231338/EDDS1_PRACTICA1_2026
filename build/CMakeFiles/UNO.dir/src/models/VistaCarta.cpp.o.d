@@ -1,10 +1,7 @@
-CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/Mazo.cpp \
- /usr/include/stdc-predef.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoCarta.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Carta.h \
- /usr/include/c++/11/iostream \
+CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.o: \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/VistaCarta.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/typeinfo \
+ /usr/include/c++/11/bits/exception.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,8 +12,12 @@ CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/hash_bytes.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlip.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Carta.h \
+ /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
+ /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
  /usr/include/c++/11/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -32,13 +33,10 @@ CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception.h \
- /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/exception_defines.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/new /usr/include/c++/11/bits/move.h \
- /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h /usr/include/c++/11/new \
+ /usr/include/c++/11/bits/move.h /usr/include/c++/11/type_traits \
  /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/stl_algobase.h \
@@ -148,16 +146,14 @@ CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaNumero.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaAccion.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaComodin.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlip.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlipSpecial.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/JuegoUNO.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoCarta.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/ListaJugadores.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoJugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Jugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mano.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Reglas.h \
- /usr/include/c++/11/ctime
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/VistaCarta.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/CPPs/../utils/Colores.h

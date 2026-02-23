@@ -21,11 +21,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaAccion.cpp" "CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaAccion.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaComodin.cpp" "CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaComodin.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlip.cpp" "CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlipSpecial.cpp" "CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaNumero.cpp" "CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Jugador.cpp" "CMakeFiles/UNO.dir/src/models/Jugador.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Jugador.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mano.cpp" "CMakeFiles/UNO.dir/src/models/Mano.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Mano.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mazo.cpp" "CMakeFiles/UNO.dir/src/models/Mazo.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Mazo.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Reglas.cpp" "CMakeFiles/UNO.dir/src/models/Reglas.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Reglas.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/VistaCarta.cpp" "CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/Colores.cpp" "CMakeFiles/UNO.dir/src/utils/Colores.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/utils/Colores.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/utils/InputUtils.cpp" "CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/utils/InputUtils.cpp.o.d"
   )

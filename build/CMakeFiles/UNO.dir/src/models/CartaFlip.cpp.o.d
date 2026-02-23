@@ -154,4 +154,9 @@ CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o: \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoJugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Jugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mano.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Reglas.h
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Reglas.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaNumero.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaAccion.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaComodin.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/../utils/Colores.h \
+ /usr/include/c++/11/limits

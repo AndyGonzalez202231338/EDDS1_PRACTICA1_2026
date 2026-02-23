@@ -444,6 +444,30 @@ src/models/CartaFlip.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.s
 .PHONY : src/models/CartaFlip.cpp.s
 
+src/models/CartaFlipSpecial.o: src/models/CartaFlipSpecial.cpp.o
+.PHONY : src/models/CartaFlipSpecial.o
+
+# target to build an object file
+src/models/CartaFlipSpecial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o
+.PHONY : src/models/CartaFlipSpecial.cpp.o
+
+src/models/CartaFlipSpecial.i: src/models/CartaFlipSpecial.cpp.i
+.PHONY : src/models/CartaFlipSpecial.i
+
+# target to preprocess a source file
+src/models/CartaFlipSpecial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.i
+.PHONY : src/models/CartaFlipSpecial.cpp.i
+
+src/models/CartaFlipSpecial.s: src/models/CartaFlipSpecial.cpp.s
+.PHONY : src/models/CartaFlipSpecial.s
+
+# target to generate assembly for a file
+src/models/CartaFlipSpecial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.s
+.PHONY : src/models/CartaFlipSpecial.cpp.s
+
 src/models/CartaNumero.o: src/models/CartaNumero.cpp.o
 .PHONY : src/models/CartaNumero.o
 
@@ -564,6 +588,30 @@ src/models/Reglas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/Reglas.cpp.s
 .PHONY : src/models/Reglas.cpp.s
 
+src/models/VistaCarta.o: src/models/VistaCarta.cpp.o
+.PHONY : src/models/VistaCarta.o
+
+# target to build an object file
+src/models/VistaCarta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.o
+.PHONY : src/models/VistaCarta.cpp.o
+
+src/models/VistaCarta.i: src/models/VistaCarta.cpp.i
+.PHONY : src/models/VistaCarta.i
+
+# target to preprocess a source file
+src/models/VistaCarta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.i
+.PHONY : src/models/VistaCarta.cpp.i
+
+src/models/VistaCarta.s: src/models/VistaCarta.cpp.s
+.PHONY : src/models/VistaCarta.s
+
+# target to generate assembly for a file
+src/models/VistaCarta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/VistaCarta.cpp.s
+.PHONY : src/models/VistaCarta.cpp.s
+
 src/utils/Colores.o: src/utils/Colores.cpp.o
 .PHONY : src/utils/Colores.o
 
@@ -660,6 +708,9 @@ help:
 	@echo "... src/models/CartaFlip.o"
 	@echo "... src/models/CartaFlip.i"
 	@echo "... src/models/CartaFlip.s"
+	@echo "... src/models/CartaFlipSpecial.o"
+	@echo "... src/models/CartaFlipSpecial.i"
+	@echo "... src/models/CartaFlipSpecial.s"
 	@echo "... src/models/CartaNumero.o"
 	@echo "... src/models/CartaNumero.i"
 	@echo "... src/models/CartaNumero.s"
@@ -675,6 +726,9 @@ help:
 	@echo "... src/models/Reglas.o"
 	@echo "... src/models/Reglas.i"
 	@echo "... src/models/Reglas.s"
+	@echo "... src/models/VistaCarta.o"
+	@echo "... src/models/VistaCarta.i"
+	@echo "... src/models/VistaCarta.s"
 	@echo "... src/utils/Colores.o"
 	@echo "... src/utils/Colores.i"
 	@echo "... src/utils/Colores.s"

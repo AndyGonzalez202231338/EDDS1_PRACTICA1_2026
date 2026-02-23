@@ -1,8 +1,7 @@
-CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/Mazo.cpp \
+CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o: \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/CartaFlipSpecial.cpp \
  /usr/include/stdc-predef.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoCarta.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlipSpecial.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Carta.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -148,16 +147,12 @@ CMakeFiles/UNO.dir/src/models/Mazo.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaNumero.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaAccion.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaComodin.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlip.h \
- /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/CartaFlipSpecial.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/JuegoUNO.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoCarta.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/ListaJugadores.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/NodoJugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Jugador.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mano.h \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Reglas.h \
- /usr/include/c++/11/ctime
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/models/../utils/Colores.h

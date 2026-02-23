@@ -156,4 +156,5 @@ CMakeFiles/UNO.dir/src/collections/ListaJugadores.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/include/TADS/Mazo.h \
+ /home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura\ de\ datos/Practica1/src/collections/../utils/Colores.h \
  /usr/include/c++/11/ctime
