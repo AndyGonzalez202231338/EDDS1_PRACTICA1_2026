@@ -40,6 +40,10 @@ set(SOURCES
     src/models/Mano.cpp
     src/models/Mazo.cpp
     src/models/Reglas.cpp
+    src/models/VistaCarta.cpp
+    src/models/CartaFlipSpecial.cpp
+    src/models/CartaX.cpp
+    src/models/CartaY.cpp
 
     src/utils/InputUtils.cpp
     src/utils/Colores.cpp

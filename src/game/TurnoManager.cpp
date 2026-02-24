@@ -1,6 +1,7 @@
 #include "../game/TurnoManager.h"
 #include "../utils/Colores.h"
 #include "../utils/InputUtils.h"
+#include "VistaCarta.h"
 #include <iostream>
 using namespace std;
 
@@ -9,14 +10,7 @@ void TurnoManager::mostrarInfoTurno(Jugador& jugador, Mazo& mazo, Carta* cartaSu
     cout << BG_AMARILLO << "                  TURNO DE " << jugador.getNombre() << "         " << RESET << " \n";
     cout << AMAR_BRILLANTE << "═══════════════════════════════════════════\n" << RESET;
     cout << AMAR_BRILLANTE << "\nCartas en pila: " << BLANCO_BRIL << mazo.size() << "\n" << RESET;
-    cout << AMAR_BRILLANTE << "Carta en mesa: " << RESET;
-    
-    if (cartaSuperior) {
-        cartaSuperior->mostrar();
-    } else {
-        cout << "NINGUNA";
-    }
-    cout << "\n";
+    VistaCarta::mostrarCartaMesa(cartaSuperior);
     
     if (jugador.tieneUnaCarta()) {
         cout << AMAR_BRILLANTE << "¡" << RESET << jugador.getNombre() << " tiene UNA carta!\n";

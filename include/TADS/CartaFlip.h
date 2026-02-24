@@ -18,9 +18,11 @@ private:
     bool ladoOscuro;
 
 public:
-    CartaFlip(int cClaro, int tClaro, int vClaro, 
-              int cOscuro, int tOscuro, int vOscuro);
+    CartaFlip(int cClaro, int tClaro, int vClaro, int cOscuro, int tOscuro, int vOscuro);
     virtual ~CartaFlip();
+
+    static JuegoUNO* juegoActual;
+    static void setJuegoActual(JuegoUNO* juego) { juegoActual = juego; }
 
     virtual int getColor() const override;
     virtual int getTipo() const override;

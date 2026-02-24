@@ -1,10 +1,16 @@
 #include "CartaFlip.h"
 #include "JuegoUNO.h"
+#include "CartaNumero.h"
+#include "CartaAccion.h"
+#include "CartaComodin.h"
+#include "../utils/Colores.h"
+#include <limits>
 #include <iostream>
 using namespace std;
 
-CartaFlip::CartaFlip(int cClaro, int tClaro, int vClaro, 
-                     int cOscuro, int tOscuro, int vOscuro)
+JuegoUNO* CartaFlip::juegoActual = nullptr;
+
+CartaFlip::CartaFlip(int cClaro, int tClaro, int vClaro, int cOscuro, int tOscuro, int vOscuro)
     : Carta(cClaro), 
       colorClaro(cClaro), tipoClaro(tClaro), valorClaro(vClaro),
       colorOscuro(cOscuro), tipoOscuro(tOscuro), valorOscuro(vOscuro),
@@ -13,7 +19,57 @@ CartaFlip::CartaFlip(int cClaro, int tClaro, int vClaro,
 CartaFlip::~CartaFlip() {}
 
 int CartaFlip::getColor() const {
-    return ladoOscuro ? colorOscuro : colorClaro;
+    if (juegoActual == nullptr) {
+        return ladoOscuro ? colorOscuro : colorClaro;
+    }
+    
+    bool modoOscuro = juegoActual->isModoOscuroActivo();
+    
+    if (modoOscuro) {
+        // MODO OSCURO: TODAS las cartas deben mostrar color oscuro
+        if (tipoClaro == 2 || tipoOscuro == 2) { // Es comodín
+            if (color != colorClaro && color != colorOscuro) {
+                // Ya tiene un color elegido, mantenerlo
+                return color;
+            }
+            // Comodín sin color elegido, usar el color oscuro por defecto
+            return 8;
+        }
+        
+        // No es comodín, forzar color oscuro
+        if (ladoOscuro) {
+            return colorOscuro; 
+        } else {
+            switch (colorClaro) {
+                case 0: return 4; // Rojo = Rosa
+                case 1: return 5; // Amarillo = Violeta
+                case 2: return 6; // Verde = Naranja
+                case 3: return 7; // Azul = Turquesa
+                default: return colorClaro;
+            }
+        }
+    } else {
+        if (tipoClaro == 2 || tipoOscuro == 2) { 
+            if (color != colorClaro && color != colorOscuro && color < 4) {
+                return color;
+            }
+            // Comodín sin color elegido, usar blanco
+            return 8;
+        }
+        
+        if (!ladoOscuro) {
+            return colorClaro;
+        } else {
+            
+            switch (colorOscuro) {
+                case 4: return 0; // Rosa = Rojo
+                case 5: return 1; // Violeta = Amarillo
+                case 6: return 2; // Naranja = Verde
+                case 7: return 3; // Turquesa = Azul
+                default: return colorOscuro;
+            }
+        }
+    }
 }
 
 int CartaFlip::getTipo() const {
@@ -27,11 +83,12 @@ int CartaFlip::getValor() const {
 void CartaFlip::mostrar() const {
     if (ladoOscuro) {
         switch (colorOscuro) {
-            case 0: cout << "ROJO OSCURO "; break;
-            case 1: cout << "AMARILLO OSCURO "; break;
-            case 2: cout << "VERDE OSCURO "; break;
-            case 3: cout << "AZUL OSCURO "; break;
-            case 4: cout << "NEGRO OSCURO "; break;
+            case 4: cout << "ROSA "; break;      // Rojo oscuro = Rosa
+            case 5: cout << "VIOLETA "; break;   // Amarillo oscuro = Violeta
+            case 6: cout << "NARANJA "; break;   // Verde oscuro = Naranja
+            case 7: cout << "TURQUESA "; break;  // Azul oscuro = Turquesa
+            case 8: cout << "BLANCO "; break;    // Comodín oscuro
+            default: cout << "DESCONOCIDO "; break;
         }
         
         if (tipoOscuro == 1) {
@@ -82,7 +139,6 @@ bool CartaFlip::esLadoOscuro() const {
 }
 
 bool CartaFlip::mismoTipoYValor(const Carta& otra) const {
-    // Compara según el lado actual
     if (getTipo() == otra.getTipo() && getValor() == otra.getValor()) {
         return true;
     }
@@ -94,78 +150,142 @@ void CartaFlip::ejecutarAccion(class JuegoUNO& juego) {
         // ========================= Logica para lado oscuro =========================
         if (tipoOscuro == 1) {
             switch (valorOscuro) {
-                case 20: // SKIP ALL
-                    cout << "->  ¡SALTAR TODOS! Todos pierden un turno.\n";
-                    // Lógica especial para saltar todos
-                    break;
-                case 21: // REVERSE (igual que claro)
-                    juego.invertirSentido();
-                    break;
-                case 22: // +6
-                    cout << "+6 El siguiente jugador roba 6 cartas.\n";
-                    juego.siguienteTurno();
-                    for (int i = 0; i < 6; i++) {
-                        juego.robarCartaJugadorActual();
-                    }
-                    break;
-            }
-        } else if (tipoOscuro == 2) {
-            switch (valorOscuro) {
-                case 23: // WILD DARK
-                    cout << "<> WILD DARK: Elige color y voltea todas las cartas.\n";
-                    break;
-                case 24: // WILD +6
-                    cout << "<> WILD +6: Elige color y el siguiente roba 6.\n";
-                    juego.siguienteTurno();
-                    for (int i = 0; i < 6; i++) {
-                        juego.robarCartaJugadorActual();
-                    }
-                    break;
-            }
-        }
-    } else {
-        if (tipoClaro == 1) {
-            switch (valorClaro) {
-                case 10: // SKIP
-                    cout << "->  ¡SALTAR! El siguiente pierde turno.\n";
+                case 20: { // SKIP ALL
+                    cout << MAGENTA_BRIL << "¡SALTAR TODOS! Todos pierden un turno.\n" << RESET;
                     juego.siguienteTurno();
                     break;
-                case 11: // REVERSE
+                }
+                case 21: // REVERSE
                     juego.invertirSentido();
                     if (juego.getNumJugadores() == 2) {
                         juego.siguienteTurno();
                     }
                     break;
-                case 12: // +2
-                    cout << "+2 El siguiente roba 2 cartas.\n";
+                case 22: { // +6
+                    cout << MAGENTA_BRIL << "+6 El siguiente jugador roba 6 cartas.\n" << RESET;
                     juego.siguienteTurno();
-                    for (int i = 0; i < 2; i++) {
-                        juego.robarCartaJugadorActual();
+                    Jugador& siguiente = juego.obtenerJugadorActual();
+                    for (int i = 0; i < 6; i++) {
+                        juego.robarCartaCastigo(siguiente);
                     }
                     break;
+                }
             }
-        } else if (tipoClaro == 2) {
-            switch (valorClaro) {
-                case 13: // +4
-                    cout << "+4 El siguiente roba 4 cartas.\n";
+                } else if (tipoOscuro == 2) {
+            switch (valorOscuro) {
+                case 23: { // WILD DARK
+                    cout << MAGENTA_BRIL << "\n=== WILD DARK ===\n" << RESET;
+                    cout << "Elige un color:\n";
+                    cout << MAGENTA_BRIL << "4: ROSA\n" << RESET;
+                    cout << MAGENTA << "5: VIOLETA\n" << RESET;
+                    cout << AMAR_BRILLANTE << "6: NARANJA\n" << RESET;
+                    cout << CYAN_BRILLANTE << "7: TURQUESA\n" << RESET;
+                    
+                    int nuevoColor;
+                    cout << "Opción: ";
+                    cin >> nuevoColor;
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    
+                    while (cin.fail() || nuevoColor < 4 || nuevoColor > 7) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Color inválido. Elige 4-7: ";
+                        cin >> nuevoColor;
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    }
+                    
+                    // Guardar color en la carta
+                    color = nuevoColor;
+                    
+                    cout << "Color cambiado a ";
+                    switch (nuevoColor) {
+                        case 4: cout << MAGENTA_BRIL << "ROSA" << RESET; break;
+                        case 5: cout << MAGENTA << "VIOLETA" << RESET; break;
+                        case 6: cout << AMAR_BRILLANTE << "NARANJA" << RESET; break;
+                        case 7: cout << CYAN_BRILLANTE << "TURQUESA" << RESET; break;
+                    }
+                    cout << "\n";
+                    
+                    cout << "Presiona Enter para voltear todas las cartas...";
+                    cin.get();
+                    
+                    juego.cambiarModo();
+                    break;
+                }
+                case 24: { // WILD +6
+                    cout << MAGENTA_BRIL << "\n=== WILD +6 ===\n" << RESET;
+                    cout << "Elige un color:\n";
+                    cout << MAGENTA_BRIL << "4: ROSA\n" << RESET;
+                    cout << MAGENTA << "5: VIOLETA\n" << RESET;
+                    cout << AMAR_BRILLANTE << "6: NARANJA\n" << RESET;
+                    cout << CYAN_BRILLANTE << "7: TURQUESA\n" << RESET;
+                    
+                    int nuevoColor;
+                    cout << "Opción: ";
+                    cin >> nuevoColor;
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    
+                    while (cin.fail() || nuevoColor < 4 || nuevoColor > 7) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Color inválido. Elige 4-7: ";
+                        cin >> nuevoColor;
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    }
+                    
+                    color = nuevoColor;
+                    
+                    cout << "Color cambiado a ";
+                    switch (nuevoColor) {
+                        case 4: cout << MAGENTA_BRIL << "ROSA" << RESET; break;
+                        case 5: cout << MAGENTA << "VIOLETA" << RESET; break;
+                        case 6: cout << AMAR_BRILLANTE << "NARANJA" << RESET; break;
+                        case 7: cout << CYAN_BRILLANTE << "TURQUESA" << RESET; break;
+                    }
+                    cout << "\n";
+                    
                     juego.siguienteTurno();
-                    for (int i = 0; i < 4; i++) {
-                        juego.robarCartaJugadorActual();
+                    Jugador& siguiente = juego.obtenerJugadorActual();
+                    for (int i = 0; i < 6; i++) {
+                        juego.robarCartaCastigo(siguiente);
                     }
                     break;
-                case 14: // CAMBIO COLOR
-                    cout << "@ CAMBIO COLOR: Elige nuevo color.\n";
-                    // Lógica para elegir color
-                    break;
+                }
             }
+        }
+    } else {
+        // Lado claro
+        if (tipoClaro == 1) { // Acción
+            CartaAccion* temp = new CartaAccion(colorClaro, valorClaro);
+            temp->ejecutarAccion(juego);
+            delete temp;
+            
+        } else if (tipoClaro == 2) { // Comodín
+            CartaComodin* temp = new CartaComodin(valorClaro, false);
+            
+            temp->ejecutarAccion(juego);
+            
+            int colorElegido = temp->getColor();
+            if (colorElegido >= 0 && colorElegido < 4) {
+                color = colorElegido;  
+            }
+            
+            delete temp;
         }
     }
 }
 
 bool CartaFlip::esJugable(const Carta& cartaSuperior) const {
+    if (cartaSuperior.getTipo() == 3) {
+        return true;
+    }
+    
     if (getColor() == cartaSuperior.getColor()) return true;
+    
     if (getTipo() == cartaSuperior.getTipo() && 
         getValor() == cartaSuperior.getValor()) return true;
-    if (getTipo() == 2) return true; // Comodines
+    
+    if (getTipo() == 2) return true;
+    
     return false;
 }

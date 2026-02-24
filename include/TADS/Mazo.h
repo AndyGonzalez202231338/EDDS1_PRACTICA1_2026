@@ -14,14 +14,18 @@ private:
 public:
     Mazo();
     ~Mazo();
-
+    
     void inicializarClasico();
     void inicializarFlip();
     void barajar();
     void apilar(Carta* carta);
     Carta* desapilar();
     void imprimirMazo() const;
-    
+
+    void inicializarClasico(int numJugadores);
+    void inicializarFlip(int numJugadores);
+    void agregarMazoCompleto();
+    void agregarMazoFlipCompleto();
     bool estaVacio() const;
     int size() const;
     void vaciar();

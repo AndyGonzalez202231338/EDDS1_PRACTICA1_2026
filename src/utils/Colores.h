@@ -4,7 +4,6 @@
 #include <string>
 using namespace std;
 
-// Definiciones de colores (se mantienen como defines)
 #define RESET   "\033[0m"
 
 #define NEGRO   "\033[30m"
@@ -15,6 +14,10 @@ using namespace std;
 #define MAGENTA "\033[35m"
 #define CYAN    "\033[36m"
 #define BLANCO  "\033[37m"
+
+#define violeta "\033[35m"
+#define naranja "\033[38;5;208m"
+#define rosado  "\033[38;5;213m"
 
 #define GRIS_OSCURO     "\033[90m"
 #define ROJO_BRILLANTE  "\033[91m"

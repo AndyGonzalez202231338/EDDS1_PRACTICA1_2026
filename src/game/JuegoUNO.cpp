@@ -4,13 +4,17 @@
 #include "../game/RoboManager.h"
 #include "../utils/Colores.h"
 #include "../utils/InputUtils.h"
+#include "CartaFlip.h"
 #include <iostream>
 #include <limits>
 #include <cstdlib>
 
 using namespace std;
 
-JuegoUNO::JuegoUNO() : juegoActivo(false), cartaSuperior(nullptr), cartasRoboAcumuladas(0), esperandoRespuestaRobo(false) {}
+JuegoUNO::JuegoUNO() : juegoActivo(false), cartaSuperior(nullptr), cartasRoboAcumuladas(0), esperandoRespuestaRobo(false),modoOscuroActivo(false) {
+    CartaFlip::setJuegoActual(this);
+    //CartaFlipSpecial::setJuegoActual(this);
+}
 
 JuegoUNO::~JuegoUNO() {
     eliminarTodosJugadores();
@@ -61,10 +65,10 @@ void JuegoUNO::iniciarJuego() {
     
     if (reglas.isModoFlipActivo()) {
         cout << "Iniciando modo FLIP.\n";
-        mazo.inicializarFlip();
+        mazo.inicializarFlip(jugadores.size());
     } else {
         cout << "Iniciando modo CLASICO.\n";
-        mazo.inicializarClasico();
+        mazo.inicializarClasico(jugadores.size());
     }
 
     juegoActivo = true;
@@ -110,9 +114,6 @@ void JuegoUNO::sacarPrimeraCarta() {
         mazo.barajar();
         cartaSuperior = mazo.desapilar();
     }
-    
-    cout << BG_VERDE << "Carta inicial: "<<RESET;
-    cartaSuperior->mostrar();
     cout << "\n";
     
     if (cartaSuperior->getTipo() == 1) {
@@ -545,7 +546,7 @@ void JuegoUNO::siguienteTurno() {
 
 void JuegoUNO::invertirSentido() {
     jugadores.invertirSentido();
-    cout << BG_MAGENTA << "Sentido: " << (jugadores.getSentido() ? "HORARIO" : "ANTIHORARIO") << "\n" << RESET;
+    cout << BG_MAGENTA << "Sentido: " << (jugadores.getSentido() ? "HORARIO" : "ANTIHORARIO") << RESET<< "\n";
 }
 
 bool JuegoUNO::getSentido() {
@@ -599,6 +600,7 @@ void JuegoUNO::ejecutarTurno() {
         bool acabaDeJugar = false;
         
         while (!turnoTerminado && juegoActivo) {
+            actual.getMano().ordenar();
             actual.getMano().mostrarPagina(paginaActual, TurnoManager::CARTAS_POR_PAGINA);
             TurnoManager::mostrarMenuOpciones();
             
@@ -658,6 +660,38 @@ void JuegoUNO::ejecutarTurno() {
 Jugador& JuegoUNO::obtenerJugadorActual() {
     return jugadores.obtenerActual();
 }
+
+void JuegoUNO::voltearTodasLasCartas() {
+    cout << "\n" << CYAN_BRILLANTE << "Volteando todas las cartas..." << RESET << "\n";
+    
+    for (int i = 0; i < jugadores.size(); i++) {
+        Jugador& j = jugadores.obtenerJugadorEnPosicionModificable(i);
+        for (int k = 0; k < j.cartasEnMano(); k++) {
+            Carta* carta = j.getMano().obtenerCarta(k);
+            if (carta != nullptr) {
+                carta->voltear();
+            }
+        }
+    }
+    
+    if (cartaSuperior != nullptr) {
+        cartaSuperior->voltear();
+    }
+    
+    cout << VERDE_BRILLANTE << "¡Listo!\n" << RESET;
+}
+
+void JuegoUNO::cambiarModo() {
+    modoOscuroActivo = !modoOscuroActivo;
+    cout << "\n" << CYAN_BRILLANTE << "═══════════════════════════════════════════\n" << RESET;
+    cout << BG_CYAN << "         MODO " << (modoOscuroActivo ? "OSCURO" : "CLARO") << " ACTIVADO         " << RESET << "\n";
+    cout << CYAN_BRILLANTE << "═══════════════════════════════════════════\n" << RESET;
+    
+    CartaFlip::setJuegoActual(this);
+    
+    voltearTodasLasCartas();
+}
+
 void JuegoUNO::mostrarMenuTurno(Jugador&) {}
 void JuegoUNO::mostrarManos() const { jugadores.mostrarManos(); }
 void JuegoUNO::mostrarMano() { jugadores.obtenerActual().getMano().mostrar(); }

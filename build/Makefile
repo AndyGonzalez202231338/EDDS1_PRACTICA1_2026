@@ -492,6 +492,54 @@ src/models/CartaNumero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.s
 .PHONY : src/models/CartaNumero.cpp.s
 
+src/models/CartaX.o: src/models/CartaX.cpp.o
+.PHONY : src/models/CartaX.o
+
+# target to build an object file
+src/models/CartaX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaX.cpp.o
+.PHONY : src/models/CartaX.cpp.o
+
+src/models/CartaX.i: src/models/CartaX.cpp.i
+.PHONY : src/models/CartaX.i
+
+# target to preprocess a source file
+src/models/CartaX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaX.cpp.i
+.PHONY : src/models/CartaX.cpp.i
+
+src/models/CartaX.s: src/models/CartaX.cpp.s
+.PHONY : src/models/CartaX.s
+
+# target to generate assembly for a file
+src/models/CartaX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaX.cpp.s
+.PHONY : src/models/CartaX.cpp.s
+
+src/models/CartaY.o: src/models/CartaY.cpp.o
+.PHONY : src/models/CartaY.o
+
+# target to build an object file
+src/models/CartaY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaY.cpp.o
+.PHONY : src/models/CartaY.cpp.o
+
+src/models/CartaY.i: src/models/CartaY.cpp.i
+.PHONY : src/models/CartaY.i
+
+# target to preprocess a source file
+src/models/CartaY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaY.cpp.i
+.PHONY : src/models/CartaY.cpp.i
+
+src/models/CartaY.s: src/models/CartaY.cpp.s
+.PHONY : src/models/CartaY.s
+
+# target to generate assembly for a file
+src/models/CartaY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UNO.dir/build.make CMakeFiles/UNO.dir/src/models/CartaY.cpp.s
+.PHONY : src/models/CartaY.cpp.s
+
 src/models/Jugador.o: src/models/Jugador.cpp.o
 .PHONY : src/models/Jugador.o
 
@@ -714,6 +762,12 @@ help:
 	@echo "... src/models/CartaNumero.o"
 	@echo "... src/models/CartaNumero.i"
 	@echo "... src/models/CartaNumero.s"
+	@echo "... src/models/CartaX.o"
+	@echo "... src/models/CartaX.i"
+	@echo "... src/models/CartaX.s"
+	@echo "... src/models/CartaY.o"
+	@echo "... src/models/CartaY.i"
+	@echo "... src/models/CartaY.s"
 	@echo "... src/models/Jugador.o"
 	@echo "... src/models/Jugador.i"
 	@echo "... src/models/Jugador.s"

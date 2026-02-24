@@ -62,7 +62,7 @@ void CartaAccion::ejecutarAccion(class JuegoUNO& juego) {
             // Avanzar al siguiente jugador
             juego.siguienteTurno();
             Jugador& siguiente = juego.obtenerJugadorActual();
-            // Hacer que robe 2 cartas (SIN preguntar si quiere jugarlas)
+            // Hacer que robe 2 cartas SIN preguntar si quiere jugarlas
             for (int i = 0; i < 2; i++) {
             juego.robarCartaCastigo(siguiente);
         }

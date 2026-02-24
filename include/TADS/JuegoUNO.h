@@ -15,6 +15,7 @@ private:
     Reglas reglas;
     Carta* cartaSuperior;
     bool juegoActivo;
+    bool modoOscuroActivo;
 
     int cartasRoboAcumuladas;
     bool esperandoRespuestaRobo;
@@ -72,6 +73,12 @@ public:
     //========== Métodos de mas 4 ============
     bool verificarSiTeniaCartaValida(Jugador& jugador);
     void manejarRetoMas4(Jugador& actual, Jugador& siguiente);
+
+    //========== FLIP ==========
+    void voltearTodasLasCartas();
+    bool isModoOscuroActivo() const { return modoOscuroActivo; }
+    void setModoOscuro(bool estado) { modoOscuroActivo = estado; }
+    void cambiarModo();
 
     //========== Getters ==========
     Reglas& getReglas();

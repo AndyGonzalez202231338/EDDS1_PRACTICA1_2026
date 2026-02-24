@@ -1,4 +1,5 @@
 #include "Mano.h"
+#include "VistaCarta.h"
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -82,32 +83,71 @@ int Mano::contarCartas() const {
     return cantidad;
 }
 
-bool debeIrAntes(const Carta* a, const Carta* b) {
-    if (a->getColor() != b->getColor())
-        return a->getColor() < b->getColor();
-    if (a->getTipo() != b->getTipo())
-        return a->getTipo() < b->getTipo();
-    return a->getValor() < b->getValor();
-}
+/*
+Este método implementa el algoritmo Bubble Sort (Ordenamiento Burbuja) pero sobre un array de punteros a nodos.
+Complejidad: O(n²) - Cuadrática
 
+
+Cantidad de cartas (n)	Operaciones aproximadas
+7	~49 comparaciones
+15	~225 comparaciones
+30	~900 comparaciones
+*/
 void Mano::ordenar() {
     if (cabeza == nullptr || cabeza->siguiente == nullptr)
         return;
-
-    bool cambio;
-    do {
-        cambio = false;
-        NodoCarta* actual = cabeza;
-        while (actual->siguiente != nullptr) {
-            if (!debeIrAntes(actual->dato, actual->siguiente->dato)) {
-                Carta* temp = actual->dato;
-                actual->dato = actual->siguiente->dato;
-                actual->siguiente->dato = temp;
-                cambio = true;
+    
+    int total = cantidad;
+    NodoCarta** nodos = new NodoCarta*[total];
+    
+    // Llenar el arreglo con los nodos en orden actual
+    NodoCarta* actual = cabeza;
+    for (int i = 0; i < total; i++) {
+        nodos[i] = actual;
+        actual = actual->siguiente;
+    }
+    
+    // Ordenando arreglo por colores y numeros
+    for (int i = 0; i < total - 1; i++) {
+        for (int j = 0; j < total - i - 1; j++) {
+            Carta* a = nodos[j]->dato;
+            Carta* b = nodos[j + 1]->dato;
+            
+            bool debenIntercambiarse = false;
+            
+            // Comparar por color
+            if (a->getColor() > b->getColor()) {
+                debenIntercambiarse = true;
             }
-            actual = actual->siguiente;
+            // Mismo color, comparar por tipo
+            else if (a->getColor() == b->getColor()) {
+                if (a->getTipo() > b->getTipo()) {
+                    debenIntercambiarse = true;
+                }
+                // Mismo color y tipo, comparar por valor
+                else if (a->getTipo() == b->getTipo()) {
+                    if (a->getValor() > b->getValor()) {
+                        debenIntercambiarse = true;
+                    }
+                }
+            }
+            
+            if (debenIntercambiarse) {
+                NodoCarta* temp = nodos[j];
+                nodos[j] = nodos[j + 1];
+                nodos[j + 1] = temp;
+            }
         }
-    } while (cambio);
+    }
+    
+    // Reconstruir la lista enlazada con el orden
+    cabeza = nodos[0];
+    for (int i = 0; i < total - 1; i++) {
+        nodos[i]->siguiente = nodos[i + 1];
+    }
+    nodos[total - 1]->siguiente = nullptr;
+    
+    delete[] nodos;
 }
 
 void Mano::mostrar() const {
@@ -129,41 +169,44 @@ void Mano::mostrarPagina(int pagina, int cartasPorPagina) const {
     
     int inicio = pagina * cartasPorPagina;
     
-    // Validar página
     if (inicio >= cantidad) {
         cout << "  Página fuera de rango.\n";
         return;
     }
     
-    // Calcular fin de página
     int fin = inicio + cartasPorPagina;
     if (fin > cantidad) {
         fin = cantidad;
     }
     
-    // Recorrer la lista hasta llegar a la posición de inicio
     NodoCarta* actual = cabeza;
     int posicion = 0;
     
-    // Avanzar hasta la posición de inicio
     while (actual != nullptr && posicion < inicio) {
         actual = actual->siguiente;
         posicion++;
     }
     
-    // Mostrar las cartas de la página actual
-    cout << "\n";
-    while (actual != nullptr && posicion < fin) {
-        cout << "  [" << posicion << "] ";
+    const int MAX_PAGINA = 10;
+    Carta* cartasPagina[MAX_PAGINA];
+    int indices[MAX_PAGINA];
+    int numCartas = 0;
+    
+    while (actual != nullptr && posicion < fin && numCartas < MAX_PAGINA) {
         if (actual->dato != nullptr) {
-            actual->dato->mostrar();
-            cout << "\n";
+            cartasPagina[numCartas] = actual->dato;
+            indices[numCartas] = posicion;
+            numCartas++;
         }
         actual = actual->siguiente;
         posicion++;
     }
     
-    cout << "\n  Página " << (pagina + 1) << " de " << getTotalPaginas(cartasPorPagina) << "\n";
+    cout << "\n";
+    VistaCarta::mostrarPaginaCartas(cartasPagina, indices, numCartas);
+    
+    int totalPaginas = (cantidad + cartasPorPagina - 1) / cartasPorPagina;
+    VistaCarta::mostrarInfoPagina(pagina, totalPaginas, cantidad);
 }
 
 int Mano::getTotalPaginas(int cartasPorPagina) const {
@@ -174,3 +217,5 @@ int Mano::getTotalPaginas(int cartasPorPagina) const {
     }
     return total;
 }
+
+

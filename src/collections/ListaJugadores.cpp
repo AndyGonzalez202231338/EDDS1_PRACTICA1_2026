@@ -1,4 +1,5 @@
     #include "ListaJugadores.h"
+    #include "../utils/Colores.h"
     #include <iostream>
     #include <cstdlib>
     #include <ctime>
@@ -136,12 +137,12 @@
             return;
         }
 
-        cout << "\nORDEN DE TURNOS:\n";
+        cout << AZUL << "\nORDEN DE TURNOS:\n"<< RESET;
 
         NodoJugador* temp = actual;
         int i = 1;
         do {
-            cout << i++ << ". " << temp->jugador->getNombre() << endl;
+            cout << AZUL << i++ << ". " << RESET << temp->jugador->getNombre() << RESET << endl;
             temp = temp->siguiente;
         } while (temp != actual);
     }

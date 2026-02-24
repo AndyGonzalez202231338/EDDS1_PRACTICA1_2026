@@ -23,6 +23,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlip.cpp" "CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaFlip.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaFlipSpecial.cpp" "CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaFlipSpecial.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaNumero.cpp" "CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaNumero.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaX.cpp" "CMakeFiles/UNO.dir/src/models/CartaX.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaX.cpp.o.d"
+  "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/CartaY.cpp" "CMakeFiles/UNO.dir/src/models/CartaY.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/CartaY.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Jugador.cpp" "CMakeFiles/UNO.dir/src/models/Jugador.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Jugador.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mano.cpp" "CMakeFiles/UNO.dir/src/models/Mano.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Mano.cpp.o.d"
   "/home/andy/Escritorio/Ingenería/QuintoSemestre/Estructura de datos/Practica1/src/models/Mazo.cpp" "CMakeFiles/UNO.dir/src/models/Mazo.cpp.o" "gcc" "CMakeFiles/UNO.dir/src/models/Mazo.cpp.o.d"
